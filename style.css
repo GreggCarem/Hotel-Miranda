@@ -1,4 +1,4 @@
-.header {
+.nav {
   width: 100%;
   height: 4.375rem;
   padding-top: 1.2rem;
@@ -6,16 +6,16 @@
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
   position: relative;
 }
-.header__menu {
+.nav__menu {
   display: inline-block;
   position: relative;
 }
-.header__menu__img {
+.nav__menu__img {
   width: 1.25rem;
   height: 0.813rem;
   cursor: pointer;
 }
-.header__menu__content {
+.nav__menu__content {
   display: none;
   position: absolute;
   list-style-type: none;
@@ -23,11 +23,11 @@
   width: 100%;
   height: 12.363rem;
 }
-.header__menu__content li {
+.nav__menu__content li {
   padding-top: 0.9em;
   padding-bottom: 0.5em;
 }
-.header__menu__content li a {
+.nav__menu__content li a {
   cursor: pointer;
   display: block;
   text-decoration: none;
@@ -38,11 +38,11 @@
   line-height: 17.41px;
   width: 20rem;
 }
-.header__logo {
+.nav__logo {
   display: inline-flex;
   margin-left: 2rem;
 }
-.header__logo__img {
+.nav__logo__img {
   box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.2509803922);
   width: 35.96px;
   height: 36px;
@@ -52,15 +52,15 @@
   gap: 0px;
   opacity: 0px;
 }
-.header__logo__detail {
+.nav__logo__detail {
   width: 0.688rem;
   height: 0.772rem;
 }
-.header__logo__name {
+.nav__logo__name {
   margin-left: 1rem;
   margin-top: 0.5rem;
 }
-.header__btns {
+.nav__btns {
   display: flex;
   float: right;
   margin-right: 1.5rem;
@@ -79,4 +79,75 @@
   margin: 0;
   padding: 0;
   font-family: Open Sans;
+}
+
+.header {
+  background-color: #333333;
+  width: 100%;
+  padding-bottom: 6rem;
+}
+.header__text {
+  padding-top: 5rem;
+  margin-left: 1.3rem;
+}
+.header__text__small {
+  font-family: "Archivo";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  text-align: left;
+  color: white;
+  width: 15rem;
+}
+.header__text__big {
+  font-family: "Old Standard TT";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.2000000477px;
+  text-align: left;
+  color: white;
+  margin-top: 2.5rem;
+}
+.header__btn {
+  margin-left: 2rem;
+  margin-top: 2.5rem;
+  display: grid;
+}
+.header__btn__tour {
+  font-family: Archivo;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15.23px;
+  letter-spacing: 2.7999999523px;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  align-items: center; /* Vertically center the text */
+  text-align: center;
+  display: grid;
+  width: 217px;
+  height: 60px;
+  background-color: #bead8e;
+  margin-bottom: 1.5rem;
+}
+.header__btn__learn {
+  font-family: Archivo;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15.23px;
+  letter-spacing: 2.7999999523px;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  align-items: center; /* Vertically center the text */
+  text-align: center;
+  display: grid;
+  width: 217px;
+  height: 60px;
+  border: 2px 0px 0px 0px;
+  border: 2px solid rgba(255, 255, 255, 0.3294117647);
 }/*# sourceMappingURL=style.css.map */

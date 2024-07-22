@@ -6,23 +6,33 @@
     <title>Hotel Miranda</title>
     <script src="JS/header.js" defer></script>
     <link rel="stylesheet" href="./style.css" />
+    <!-- Font Imports  -->
     <link
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Old+Standard+TT:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap"
+    />
   </head>
   <body>
-    <header class="header">
-      <div class="header__menu">
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav__menu">
         <a id="menu">
           <img
-            class="header__menu__img"
+            class="nav__menu__img"
             id="menu__img"
             src="./Resources/Menu.png"
             alt="Menu"
           />
         </a>
-        <ul id="menu__content" class="header__menu__content">
+        <ul id="menu__content" class="nav__menu__content">
           <li><a href="#Hello">About Us</a></li>
           <li><a href="#Hello">Rooms</a></li>
           <li><a href="#Hello">Offers</a></li>
@@ -30,22 +40,41 @@
         </ul>
       </div>
 
-      <div class="header__logo">
-        <div class="header__logo__img">
+      <div class="nav__logo">
+        <div class="nav__logo__img">
           <img
-            class="header__logo__img__detail"
+            class="nav__logo__img__detail"
             src="./Resources/Logo-H.png"
             alt="Logo Hotel Miranda"
           />
         </div>
-        <div class="header__logo__name">
+        <div class="nav__logo__name">
           <img src="./Resources/Logo-Name.png" alt="Logo Name" />
         </div>
       </div>
-      <div class="header__btns">
+      <div class="nav__btns">
         <img src="./Resources/User-Logo.png" alt="User Logo" />
         <img src="./Resources/Serch-Logo.png" alt="Search Logo" />
       </div>
+    </nav>
+    <!-- Ultimate Luxury  -->
+    <header class="header">
+      <div class="header__text">
+        <h2 class="header__text__small">THE ULTIMATE LUXURY EXPERIENCE</h2>
+        <h1 class="header__text__big">The Perfect Base For You</h1>
+      </div>
+      <div class="header__btn">
+        <a href="http://" class="header__btn__tour">Take a Tour</a>
+        <a href="" class="header__btn__learn">Learn more</a>
+      </div>
     </header>
+    <!-- Calendar  -->
+    <div class="calendar">
+      <h3>Arrival Date</h3>
+      <input type="date" name="arrival" id="arrival" />
+      <h3>Departure Date</h3>
+      <input type="date" name="departure" id="departure" />
+      <a href="" class="calendar__btn">Check availability</a>
+    </div>
   </body>
 </html>

@@ -1,0 +1,19 @@
+@mixin small-letters {
+  font-family: "Archivo";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  text-align: left;
+  color: white;
+}
+
+@mixin big-letters {
+  font-family: "Old Standard TT";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.2000000476837158px;
+  text-align: left;
+  color: white;
+}

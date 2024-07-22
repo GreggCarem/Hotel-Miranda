@@ -1,8 +1,50 @@
-@import "./styles/components/header";
+// Import the components
+@import "./styles/components/Navigation";
+
+// Style constants
+
+@import "./styles/constants/Background-Colors";
+@import "./styles/constants/Title-Letters";
+@import "./styles/constants/Btns";
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Open Sans;
+}
+
+// Ultimate Luxury
+.header {
+  background-color: $ultimate-luxury;
+  width: 100%;
+  padding-bottom: 6rem;
+
+  &__text {
+    padding-top: 5rem;
+    margin-left: 1.3rem;
+    &__small {
+      @include small-letters;
+      width: 15rem;
+    }
+    &__big {
+      @include big-letters;
+      margin-top: 2.5rem;
+    }
+  }
+  &__btn {
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+    display: grid;
+    &__tour {
+      @include btn-text;
+      @include ultimate-luxury-dirt-btn;
+
+      margin-bottom: 1.5rem;
+    }
+    &__learn {
+      @include btn-text;
+      @include ultimate-luxury-transparent-btn;
+    }
+  }
 }

@@ -1,0 +1,33 @@
+@mixin ultimate-luxury-dirt-btn {
+  width: 217px;
+  height: 60px;
+  background-color: #bead8e;
+}
+
+@mixin ultimate-luxury-transparent-btn {
+  width: 217px;
+  height: 60px;
+  border: 2px 0px 0px 0px;
+  border: 2px solid #ffffff54;
+}
+
+@mixin btn-text {
+  font-family: Archivo;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15.23px;
+  letter-spacing: 2.799999952316284px;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  align-items: center; /* Vertically center the text */
+  text-align: center;
+  display: grid;
+}
+
+@mixin btn-check-availability {
+  width: 250px;
+  height: 60px;
+  background-color: #bead8e;
+}
