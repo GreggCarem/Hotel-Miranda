@@ -3,8 +3,8 @@
 
 // Style constants
 
-@import "./styles/constants/Background-Colors";
-@import "./styles/constants/Title-Letters";
+@import "./styles/constants/Colors";
+@import "./styles/constants/Text";
 @import "./styles/constants/Btns";
 
 * {
@@ -30,6 +30,7 @@
     &__big {
       @include big-letters;
       margin-top: 2.5rem;
+      width: 23rem;
     }
   }
   &__btn {
@@ -47,4 +48,49 @@
       @include ultimate-luxury-transparent-btn;
     }
   }
+}
+
+// Calendar
+.calendar {
+  background-color: $calendar;
+  display: grid;
+  &__inner {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  &__line {
+    width: 91%;
+    height: 2px;
+    background-color: $ochre-color;
+    margin-top: 0.6rem;
+  }
+  &__input {
+    background-color: transparent;
+    border: none;
+    color: $ochre-color;
+    margin-left: 2rem;
+    margin-top: 0.9rem;
+  }
+
+  &__arrival__txt {
+    @include calendar-txt;
+  }
+  &__departure__txt {
+    @include calendar-txt;
+    margin-top: 2rem;
+  }
+  &__btn {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    @include btn-check-availability;
+    @include btn-text;
+  }
+}
+
+.calendar__input::-webkit-calendar-picker-indicator {
+  color: $ochre-color;
+  background-color: $ochre-color;
+  position: absolute;
+
+  left: 2rem;
 }

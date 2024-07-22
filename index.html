@@ -19,6 +19,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
   </head>
   <body>
     <!-- Navigation -->
@@ -70,11 +74,25 @@
     </header>
     <!-- Calendar  -->
     <div class="calendar">
-      <h3>Arrival Date</h3>
-      <input type="date" name="arrival" id="arrival" />
-      <h3>Departure Date</h3>
-      <input type="date" name="departure" id="departure" />
-      <a href="" class="calendar__btn">Check availability</a>
+      <div class="calendar__inner">
+        <h3 class="calendar__arrival__txt">Arrival Date</h3>
+        <input
+          class="calendar__input"
+          type="date"
+          name="arrival"
+          id="arrival"
+        />
+        <div class="calendar__line"></div>
+        <h3 class="calendar__departure__txt">Departure Date</h3>
+        <input
+          class="calendar__input"
+          type="date"
+          name="departure"
+          id="departure"
+        />
+        <div class="calendar__line"></div>
+        <a href="" class="calendar__btn">CHECK AVAILABILITY</a>
+      </div>
     </div>
   </body>
 </html>
