@@ -30,7 +30,6 @@
     &__big {
       @include big-letters;
       margin-top: 2.5rem;
-      width: 23rem;
     }
   }
   &__btn {
@@ -93,4 +92,33 @@
   position: absolute;
 
   left: 2rem;
+}
+
+// About US
+.about__us {
+  margin-top: 3rem;
+  background-color: $light-grey;
+  width: 100%;
+  padding-bottom: 22rem;
+
+  &__subtitle {
+    @include subtitle-txt;
+    margin-left: 1.3rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+  }
+  &__title {
+    @include title-txt;
+    margin-top: 2rem;
+    margin-left: 1.7rem;
+  }
+  &__text {
+    @include main-txt;
+    margin-left: 1.3rem;
+    margin-top: 2rem;
+    width: 90%;
+  }
+}
+.book__now {
+  @include book-now;
 }

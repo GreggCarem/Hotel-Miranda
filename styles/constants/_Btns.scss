@@ -21,7 +21,7 @@
   cursor: pointer;
   text-decoration: none;
   color: white;
-  align-items: center; /* Vertically center the text */
+  align-items: center;
   text-align: center;
   display: grid;
 }
@@ -30,4 +30,24 @@
   width: 250px;
   height: 60px;
   background-color: #bead8e;
+}
+
+@mixin book-now {
+  align-items: center;
+  text-align: center;
+  display: grid;
+  width: 216px;
+  height: 60px;
+  background: #bdac8d;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  font-family: Archivo;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15.23px;
+  letter-spacing: 2.799999952316284px;
+  color: white;
+  margin-top: 2rem;
+  margin-left: 1.3rem;
 }
