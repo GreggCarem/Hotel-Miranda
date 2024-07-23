@@ -99,7 +99,7 @@
   margin-top: 3rem;
   background-color: $light-grey;
   width: 100%;
-  padding-bottom: 22rem;
+  padding-bottom: 11rem;
 
   &__subtitle {
     @include subtitle-txt;
@@ -121,4 +121,60 @@
 }
 .book__now {
   @include book-now;
+}
+
+// Strong Team
+
+.strong__team {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+
+  &__room__img {
+    width: 270px;
+    height: 300px;
+    position: relative;
+    top: -7rem;
+  }
+  &__box {
+    box-shadow: 0px 8px 16px 0px #22222205;
+    width: 270px;
+    height: 300px;
+
+    top: -7rem;
+    position: relative;
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
+
+    &__text {
+      margin-top: -2.5rem;
+      z-index: 2;
+      &__title {
+        text-align: center;
+        @include namimg-text;
+        margin-bottom: 2rem;
+      }
+      &__body {
+        text-align: center;
+        @include naming-description-text;
+        width: 13rem;
+      }
+    }
+  }
+  &__frontimg {
+    width: 68px;
+    height: 49.92px;
+    margin-top: 4rem;
+    z-index: 1;
+  }
+  &__backimg {
+    width: 144px;
+    height: 105.83px;
+
+    position: absolute;
+    right: 0rem;
+    bottom: 9rem;
+  }
 }
