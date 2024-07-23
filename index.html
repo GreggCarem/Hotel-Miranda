@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel Miranda</title>
+
     <script src="JS/header.js" defer></script>
+    <script src="JS/slider.js" defer></script>
     <link rel="stylesheet" href="./style.css" />
     <!-- Font Imports  -->
     <link
@@ -23,6 +25,14 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
     />
+
+    <!-- Slider Imports  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
     <!-- Navigation -->
@@ -37,7 +47,7 @@
           />
         </a>
         <ul id="menu__content" class="nav__menu__content">
-          <li><a href="#Hello">About Us</a></li>
+          <li><a href="/slider.html">About Us</a></li>
           <li><a href="#Hello">Rooms</a></li>
           <li><a href="#Hello">Offers</a></li>
           <li><a href="#Hello">Content</a></li>
@@ -135,6 +145,178 @@
             eiusmod tempor.
           </h2>
         </div>
+      </div>
+    </div>
+
+    <!-- Luxury Rooms -->
+    <div class="luxury__rooms">
+      <img
+        class="luxury__rooms__img"
+        src="./Resources/Images/Luxury-room.jpeg"
+        alt="Luxury Rooms"
+      />
+      <div class="luxury__rooms__box">
+        <img
+          class="luxury__rooms__calendar__img"
+          src="./Resources/Calendar-arrow.png"
+          alt="Calendar Arrow"
+        />
+        <div class="luxury__rooms__box__text">
+          <h1 class="luxury__rooms__box__text__title">Strong Team</h1>
+          <h2 class="luxury__rooms__box__text__body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor.
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hand Picked Rooms  -->
+    <div class="hand__picked__rooms">
+      <h1 class="hand__picked__rooms__subtittle">Rooms</h1>
+      <h2 class="hand__picked__rooms__tittle">Hand Picked Rooms</h2>
+    </div>
+    <!-- Slider -->
+    <div class="slider">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              class="swiper-slide-rules"
+              src="/Resources/Room-rules.png"
+              alt="Room Rules"
+            />
+            <img
+              class="swiper-slide-img"
+              src="./Resources/Slider-Rooms/Room-1.webp"
+              alt="Rooms"
+            />
+            <div class="swiper-slide-text">
+              <h1 class="swiper-slide-text-title">Minimal Duplex Room</h1>
+              <h2 class="swiper-slide-text-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore.
+              </h2>
+              <h3 class="swiper-slide-text-price">
+                $345/<span class="swiper-slide-text-price-small">Night</span>
+              </h3>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img
+              class="swiper-slide-rules"
+              src="/Resources/Room-rules.png"
+              alt="Room Rules"
+            />
+            <img
+              class="swiper-slide-img"
+              src="./Resources/Slider-Rooms/Room-2.jpeg"
+              alt="Rooms"
+            />
+            <div class="swiper-slide-text">
+              <h1 class="swiper-slide-text-title">Minimal Duplex Room</h1>
+              <h2 class="swiper-slide-text-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore.
+              </h2>
+              <h3 class="swiper-slide-text-price">
+                $345/<span class="swiper-slide-text-price-small">Night</span>
+              </h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              class="swiper-slide-rules"
+              src="/Resources/Room-rules.png"
+              alt="Room Rules"
+            />
+            <img
+              class="swiper-slide-img"
+              src="./Resources/Slider-Rooms/Room-3.jpeg"
+              alt="Rooms"
+            />
+            <div class="swiper-slide-text">
+              <h1 class="swiper-slide-text-title">Minimal Duplex Room</h1>
+              <h2 class="swiper-slide-text-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore.
+              </h2>
+              <h3 class="swiper-slide-text-price">
+                $345/<span class="swiper-slide-text-price-small">Night</span>
+              </h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              class="swiper-slide-rules"
+              src="/Resources/Room-rules.png"
+              alt="Room Rules"
+            />
+            <img
+              class="swiper-slide-img"
+              src="./Resources/Slider-Rooms/Room-4.jpeg"
+              alt="Rooms"
+            />
+            <div class="swiper-slide-text">
+              <h1 class="swiper-slide-text-title">Minimal Duplex Room</h1>
+              <h2 class="swiper-slide-text-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore.
+              </h2>
+              <h3 class="swiper-slide-text-price">
+                $345/<span class="swiper-slide-text-price-small">Night</span>
+              </h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              class="swiper-slide-rules"
+              src="/Resources/Room-rules.png"
+              alt="Room Rules"
+            />
+            <img
+              class="swiper-slide-img"
+              src="./Resources/Slider-Rooms/Room-5.webp"
+              alt="Rooms"
+            />
+            <div class="swiper-slide-text">
+              <h1 class="swiper-slide-text-title">Minimal Duplex Room</h1>
+              <h2 class="swiper-slide-text-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore.
+              </h2>
+              <h3 class="swiper-slide-text-price">
+                $345/<span class="swiper-slide-text-price-small">Night</span>
+              </h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              class="swiper-slide-rules"
+              src="/Resources/Room-rules.png"
+              alt="Room Rules"
+            />
+            <img
+              class="swiper-slide-img"
+              src="./Resources/Slider-Rooms/Room-6.jpeg"
+              alt="Rooms"
+            />
+            <div class="swiper-slide-text">
+              <h1 class="swiper-slide-text-title">Minimal Duplex Room</h1>
+              <h2 class="swiper-slide-text-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore.
+              </h2>
+              <h3 class="swiper-slide-text-price">
+                $345/<span class="swiper-slide-text-price-small">Night</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
     </div>
   </body>

@@ -1,0 +1,103 @@
+.slider {
+  height: 90rem;
+}
+.swiper {
+  width: 100%;
+  height: 62rem;
+}
+
+.swiper-slide img {
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: black;
+  width: 50px;
+  height: 50px;
+}
+
+.swiper-button-prev::after {
+  color: black;
+  padding: 1rem;
+  background-color: aliceblue;
+  position: absolute;
+  top: -65rem;
+  left: -4rem;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  /* transform: scale(0.3); */
+  transform: scale(0.3);
+  color: black;
+  height: 20rem;
+}
+
+.swiper-button-next::after {
+  color: black;
+  padding: 1rem;
+  background-color: #bdac8d;
+  position: absolute;
+  top: -65rem;
+  left: 2rem;
+}
+.swiper-slide-img {
+  width: 100%;
+  height: 244px;
+  object-fit: cover;
+}
+
+.swiper-slide-rules {
+  width: 256px;
+  height: 66px;
+  position: relative;
+  top: 2.5rem;
+  display: inline-block;
+  z-index: 3;
+  display: block;
+  margin: auto;
+}
+
+.swiper-slide-text {
+  width: 80%;
+  height: 900px;
+  padding-bottom: 30rem;
+  display: block;
+  margin: auto;
+  background: white;
+  position: relative;
+  top: -2rem;
+}
+
+.swiper-slide-text-title {
+  padding-top: 1rem;
+  font-family: "Old Standard TT";
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+}
+.swiper-slide-text-body {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  width: 20rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+.swiper-slide-text-price {
+  font-family: Archivo;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+  text-align: center;
+  color: #bead8e;
+}
+.swiper-slide-text-price-small {
+  font-family: Archivo;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 43px;
+  text-align: center;
+  color: #bead8e;
+}

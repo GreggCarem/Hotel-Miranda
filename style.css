@@ -1,3 +1,4 @@
+@import "./Sliders/Slider-1/slider.css";
 .nav {
   width: 100%;
   height: 4.375rem;
@@ -77,6 +78,7 @@
 .menu__close {
   width: 0.975rem;
   height: 0.975rem;
+  margin-right: 0.28rem;
 }
 
 * {
@@ -338,4 +340,84 @@
   position: absolute;
   right: 0rem;
   bottom: 9rem;
+}
+
+.luxury__rooms {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+.luxury__rooms__img {
+  width: 270px;
+  height: 300px;
+  position: relative;
+  top: -7rem;
+}
+.luxury__rooms__box {
+  background-color: #222222;
+  width: 270px;
+  height: 300px;
+  top: -7rem;
+  position: relative;
+  display: grid;
+  justify-content: space-around;
+  justify-items: center;
+}
+.luxury__rooms__box__text {
+  margin-top: -2.5rem;
+  z-index: 2;
+}
+.luxury__rooms__box__text__title {
+  text-align: center;
+  font-family: "Old Standard TT";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.8999999762px;
+  margin-bottom: 2rem;
+  color: white;
+}
+.luxury__rooms__box__text__body {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 13rem;
+  color: white;
+}
+.luxury__rooms__calendar__img {
+  width: 57px;
+  height: 50px;
+  margin-top: 2rem;
+}
+
+.hand__picked__rooms {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+}
+.hand__picked__rooms__subtittle {
+  font-family: Archivo;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #777777;
+  margin-bottom: 2rem;
+}
+.hand__picked__rooms__tittle {
+  font-family: "Old Standard TT";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.2000000477px;
+  text-align: left;
+  color: #111111;
+  text-align: center;
+  margin-bottom: -1rem;
 }/*# sourceMappingURL=style.css.map */
