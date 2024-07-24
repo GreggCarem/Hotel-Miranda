@@ -306,4 +306,29 @@
   color: #222222;
   color: #bdac8d;
   margin-left: 0.8rem;
+}
+
+.video__intro {
+  display: grid;
+  justify-items: center;
+  margin: auto;
+  margin-top: 2rem;
+  width: 90%;
+  height: 16.875rem;
+}
+.video__text {
+  font-family: "Old Standard TT";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.8999999762px;
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  line-height: 39.55px;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 32px;
+  text-align: center;
 }/*# sourceMappingURL=about-us.css.map */

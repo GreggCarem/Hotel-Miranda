@@ -51,3 +51,24 @@
     }
   }
 }
+
+//Video
+.video {
+  &__intro {
+    display: grid;
+    justify-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 90%;
+    height: 16.875rem;
+  }
+  &__text {
+    @include namimg-text;
+    @include center-allign;
+    line-height: 39.55px;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 32px;
+    text-align: center;
+  }
+}
