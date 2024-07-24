@@ -245,4 +245,45 @@
   }
 }
 
-// Slider
+// Intro Video
+.intro__video {
+  margin-top: 2rem;
+  width: 100%;
+  background-color: #222222;
+  padding-bottom: 2rem;
+
+  &__subtitle {
+    @include main-txt;
+
+    color: $light-ochre-color;
+    font-weight: 700;
+    line-height: 15.23px;
+    letter-spacing: 2.799999952316284px;
+    margin-left: 1.3rem;
+    padding-top: 4rem;
+  }
+  &__tittle {
+    @include big-letters;
+    width: 19rem;
+    margin-top: 2rem;
+    margin-left: 1.3rem;
+  }
+  &__body {
+    @include main-txt;
+    margin-left: 1.3rem;
+    width: 21rem;
+  }
+  &__video {
+    display: grid;
+    justify-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 90%;
+    height: 16.875rem;
+  }
+  &__btn {
+    @include book-now;
+
+    margin-top: 3rem;
+  }
+}
