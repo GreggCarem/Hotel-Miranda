@@ -4,6 +4,7 @@
 //Import Sliders
 @import "./Sliders/slider.css";
 @import "./Sliders/second-slider.css";
+@import "./Sliders/third-slider.css";
 // Style constants
 @import "./styles/constants/Colors";
 @import "./styles/constants/Text";
@@ -287,5 +288,52 @@
     @include book-now;
 
     margin-top: 3rem;
+  }
+}
+
+//Core Features Text
+.core__features {
+  &__subtittle {
+    @include small-letters;
+    color: #777777;
+    @include center-allign;
+    margin-top: 3rem;
+  }
+
+  &__tittle {
+    @include title-txt;
+    @include center-allign;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+// Our Food Menu
+.food__menu {
+  margin-top: 10rem;
+  &__img {
+    width: 114.5px;
+    height: 114.5px;
+
+    right: 0;
+    position: absolute;
+    margin-bottom: 13rem;
+    margin-top: -7rem;
+  }
+  &__subtittle {
+    @include small-letters;
+    color: #777777;
+
+    margin-top: 8rem;
+    margin-left: 1.8rem;
+  }
+
+  &__tittle {
+    @include title-txt;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 15rem;
+    margin-left: 1.5rem;
   }
 }
