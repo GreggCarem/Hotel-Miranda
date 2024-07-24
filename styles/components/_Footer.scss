@@ -1,0 +1,185 @@
+// Style constants
+@import "../../styles/constants/Colors";
+@import "../../styles/constants/Text";
+
+.footer {
+  background-image: url("../../Resources/Background-footer.png");
+  width: 100%;
+  height: 75rem;
+  margin-top: 5rem;
+
+  &__logos {
+    padding-top: 2rem;
+    &__img {
+      padding: 1rem;
+      background-color: $ochre-color;
+      margin-left: 1.5rem;
+      box-shadow: 0px 14px 24px 0px #8b8b8b26;
+    }
+    &__name {
+      margin-left: 1.5rem;
+      margin-top: 1rem;
+      margin-bottom: 0.3rem;
+    }
+  }
+
+  &__text {
+    margin-top: 2.5rem;
+    margin-left: 1.5rem;
+    font-family: "Archivo";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+
+    color: #777777;
+
+    line-height: 26px;
+    width: 335px;
+    height: 130px;
+  }
+
+  &__social__media {
+    display: inline-flex;
+    gap: 1.7rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  &__services {
+    padding: 1.5rem;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+
+    &__options__div {
+      margin-bottom: 1.5rem;
+    }
+
+    &__heading {
+      font-family: "Old Standard TT";
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+    }
+
+    &__list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    &__column {
+      display: grid;
+      gap: 2rem;
+
+      &__2 {
+        display: grid;
+        margin-bottom: 4rem;
+      }
+    }
+
+    &__item {
+      font-family: "Roboto";
+      font-size: 15px;
+      font-weight: 400;
+      color: #777777;
+      margin: 0;
+    }
+  }
+
+  &__contact__us {
+    margin-top: 2rem;
+    padding: 1.5rem;
+
+    &__tittle {
+      font-family: "Old Standard TT";
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      margin-bottom: -2rem;
+    }
+
+    &__phone,
+    &__email,
+    &__location {
+      display: inline-flex;
+      margin-top: 5rem;
+
+      padding: 0;
+
+      &__text {
+        margin-left: 2rem;
+      }
+
+      &__tittle {
+        font-family: "Old Standard TT";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+      }
+
+      &__body {
+        font-family: "Roboto";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.41px;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.terms {
+  width: 100%;
+  height: 94px;
+  background-color: #f8f8f8;
+
+  &__copyright {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: -0.47999998927116394px;
+    text-align: left;
+
+    color: #222222;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+  &__txt {
+    display: flex;
+    align-items: center;
+  }
+
+  &__information {
+    margin: 1rem;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: -0.47999998927116394px;
+    text-align: left;
+    text-decoration: none;
+    color: #222222;
+  }
+  &__conditions {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: -0.47999998927116394px;
+    text-align: left;
+    text-decoration: none;
+    color: #222222;
+    margin: 1rem;
+  }
+}

@@ -1,6 +1,6 @@
 // Import the components
 @import "./styles/components/Navigation";
-
+@import "./styles/components/Footer";
 //Import Sliders
 @import "./Sliders/slider.css";
 @import "./Sliders/second-slider.css";
@@ -357,17 +357,15 @@
     margin-top: 2rem;
   }
 
-  // Specific styles for the images
   .general__info__1__img,
   .general__info__2__img,
   .general__info__3__img,
   .general__info__4__img {
     width: 78px;
     height: 80px;
-    margin-bottom: 1.5rem; // Space below the image
+    margin-bottom: 1.5rem;
   }
 
-  // Title styling
   .general__info__1__tittle,
   .general__info__2__tittle,
   .general__info__3__tittle,
@@ -415,7 +413,6 @@
     }
   }
 
-  // Body text styling
   .general__info__1__body,
   .general__info__2__body,
   .general__info__3__body,
@@ -425,6 +422,6 @@
     font-weight: 700;
     line-height: 21.82px;
     color: #999999;
-    margin-top: -0.7rem; // Adjust spacing above the body text
+    margin-top: -0.7rem;
   }
 }
