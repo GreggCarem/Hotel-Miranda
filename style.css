@@ -561,4 +561,80 @@
   margin-bottom: 2rem;
   width: 15rem;
   margin-left: 1.5rem;
+}
+
+.general__info {
+  background-color: #222222;
+  width: 100%;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 7rem;
+}
+.general__info > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+.general__info .general__info__1__img,
+.general__info .general__info__2__img,
+.general__info .general__info__3__img,
+.general__info .general__info__4__img {
+  width: 78px;
+  height: 80px;
+  margin-bottom: 1.5rem;
+}
+.general__info .general__info__1__tittle,
+.general__info .general__info__2__tittle,
+.general__info .general__info__3__tittle,
+.general__info .general__info__4__tittle {
+  font-family: "Roboto";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 81.84px;
+  color: #ffffff;
+  position: relative;
+}
+.general__info .general__info__1__tittle span,
+.general__info .general__info__3__tittle span {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.82px;
+  position: absolute;
+  top: 3rem;
+  left: 6.5rem;
+}
+.general__info .general__info__2__tittle span {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.82px;
+  position: absolute;
+  top: 3rem;
+  left: 7.6rem;
+}
+.general__info .general__info__4__tittle span {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.82px;
+  position: absolute;
+  top: 3rem;
+  left: 9.65rem;
+}
+.general__info .general__info__1__body,
+.general__info .general__info__2__body,
+.general__info .general__info__3__body,
+.general__info .general__info__4__body {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.82px;
+  color: #999999;
+  margin-top: -0.7rem;
 }/*# sourceMappingURL=style.css.map */
