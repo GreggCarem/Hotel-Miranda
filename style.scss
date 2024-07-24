@@ -5,6 +5,7 @@
 @import "./Sliders/slider.css";
 @import "./Sliders/second-slider.css";
 @import "./Sliders/third-slider.css";
+@import "./Sliders/fourth-slider.css";
 // Style constants
 @import "./styles/constants/Colors";
 @import "./styles/constants/Text";
@@ -312,7 +313,6 @@
 .food__menu {
   margin-top: 10rem;
   &__img {
-    width: 114.5px;
     height: 114.5px;
 
     right: 0;

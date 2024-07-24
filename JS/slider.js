@@ -25,4 +25,12 @@ document.addEventListener("DOMContentLoaded", function () {
       prevEl: ".swiper-button-prev",
     },
   });
+  // Fourth Slider
+  var swiper4 = new Swiper(".Swiper4", {
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
 });
