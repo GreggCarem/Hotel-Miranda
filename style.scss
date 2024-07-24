@@ -1,8 +1,10 @@
 // Import the components
 @import "./styles/components/Navigation";
-@import "./Sliders/Slider-1/slider.css";
-// Style constants
 
+//Import Sliders
+@import "./Sliders/slider.css";
+@import "./Sliders/second-slider.css";
+// Style constants
 @import "./styles/constants/Colors";
 @import "./styles/constants/Text";
 @import "./styles/constants/Btns";

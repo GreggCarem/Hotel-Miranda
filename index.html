@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel Miranda</title>
 
-    <script src="JS/header.js" defer></script>
-    <script src="JS/slider.js" defer></script>
+    <!-- StyleSheet Imports -->
     <link rel="stylesheet" href="./style.css" />
+
     <!-- Font Imports  -->
     <link
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap"
@@ -33,6 +33,11 @@
     />
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- JS Imports -->
+    <script src="JS/header.js" defer></script>
+    <script src="JS/second-slider.js" defer></script>
+    <script src="JS/slider.js" defer></script>
   </head>
   <body>
     <!-- Navigation -->
@@ -178,7 +183,7 @@
     </div>
     <!-- Slider -->
     <div class="slider">
-      <div class="swiper">
+      <div class="swiper first-slider">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img
@@ -347,7 +352,117 @@
     <div class="core__features">
       <h1 class="core__features__subtittle">Facilities</h1>
       <h2 class="core__features__tittle">Core Features</h2>
-      <div class="core__features__slider"></div>
+      <div class="core__features__slider">
+        <!-- Slider 2 -->
+        <div class="swiper Swiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-slide-logos">
+                <h1 class="swiper-slide-number">01</h1>
+                <img
+                  class="swiper-slide-logo"
+                  src="./Resources/Second-Slider/card-1.png"
+                  alt="High Rating"
+                />
+              </div>
+              <div class="swiper-slide-main-txt">
+                <h3 class="swiper-slide-title">Have High Rating</h3>
+                <h4 class="swiper-slide-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna..
+                </h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-slide-logos">
+                <h1 class="swiper-slide-number">02</h1>
+                <img
+                  class="swiper-slide-logo"
+                  src="./Resources/Second-Slider/card-2.png"
+                  alt="High Rating"
+                />
+              </div>
+              <div class="swiper-slide-main-txt">
+                <h3 class="swiper-slide-title">Quiet Hours</h3>
+                <h4 class="swiper-slide-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna..
+                </h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-logos">
+                <h1 class="swiper-slide-number">03</h1>
+                <img
+                  class="swiper-slide-logo"
+                  src="./Resources/Second-Slider/card-3.png"
+                  alt="High Rating"
+                />
+              </div>
+              <div class="swiper-slide-main-txt">
+                <h3 class="swiper-slide-title">Best Locations</h3>
+                <h4 class="swiper-slide-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna..
+                </h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-logos">
+                <h1 class="swiper-slide-number">04</h1>
+                <img
+                  class="swiper-slide-logo"
+                  src="./Resources/Second-Slider/card-4.png"
+                  alt="High Rating"
+                />
+              </div>
+              <div class="swiper-slide-main-txt">
+                <h3 class="swiper-slide-title">Free Cancellation</h3>
+                <h4 class="swiper-slide-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna..
+                </h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-logos">
+                <h1 class="swiper-slide-number">05</h1>
+                <img
+                  class="swiper-slide-logo"
+                  src="./Resources/Second-Slider/card-5.png"
+                  alt="High Rating"
+                />
+              </div>
+              <div class="swiper-slide-main-txt">
+                <h3 class="swiper-slide-title">Payment Options</h3>
+                <h4 class="swiper-slide-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna..
+                </h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-logos">
+                <h1 class="swiper-slide-number">06</h1>
+                <img
+                  class="swiper-slide-logo"
+                  src="./Resources/Second-Slider/card-6.png"
+                  alt="High Rating"
+                />
+              </div>
+              <div class="swiper-slide-main-txt">
+                <h3 class="swiper-slide-title">Special Offers</h3>
+                <h4 class="swiper-slide-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna..
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
