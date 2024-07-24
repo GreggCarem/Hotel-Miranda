@@ -1,0 +1,309 @@
+.nav {
+  width: 100%;
+  height: 4.375rem;
+  padding-top: 1.2rem;
+  padding-left: 1.3rem;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+}
+.nav__menu {
+  display: inline-block;
+}
+.nav__menu__img {
+  width: 1.25rem;
+  height: 0.813rem;
+  cursor: pointer;
+}
+.nav__menu__content {
+  position: absolute;
+  list-style-type: none;
+  margin-top: 1.3rem;
+  width: 100%;
+  height: 13rem;
+  background-color: white;
+  margin-left: -1.3rem;
+  display: none;
+}
+.nav__menu__content li {
+  padding-top: 0.9em;
+  padding-bottom: 0.5em;
+  margin-left: 1.3rem;
+}
+.nav__menu__content li a {
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: Archivo;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17.41px;
+  width: 20rem;
+}
+.nav__logo {
+  display: inline-flex;
+  margin-left: 2rem;
+}
+.nav__logo__img {
+  box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.2509803922);
+  width: 35.96px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  opacity: 0px;
+}
+.nav__logo__detail {
+  width: 0.688rem;
+  height: 0.772rem;
+}
+.nav__logo__name {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+.nav__btns {
+  display: flex;
+  float: right;
+  margin-right: 1.5rem;
+  align-content: space-between;
+  gap: 1rem;
+  margin-top: 0.3rem;
+}
+
+.menu__close {
+  width: 0.975rem;
+  height: 0.975rem;
+  margin-right: 0.28rem;
+}
+
+.footer {
+  background-image: url("../../Resources/Background-footer.png");
+  width: 100%;
+  height: 75rem;
+  margin-top: 5rem;
+}
+.footer__logos {
+  padding-top: 2rem;
+}
+.footer__logos__img {
+  padding: 1rem;
+  background-color: #bead8e;
+  margin-left: 1.5rem;
+  box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.1490196078);
+}
+.footer__logos__name {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.footer__text {
+  margin-top: 2.5rem;
+  margin-left: 1.5rem;
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #777777;
+  line-height: 26px;
+  width: 335px;
+  height: 130px;
+}
+.footer__social__media {
+  display: inline-flex;
+  gap: 1.7rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.footer__services {
+  padding: 1.5rem;
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+.footer__services__options__div {
+  margin-bottom: 1.5rem;
+}
+.footer__services__heading {
+  font-family: "Old Standard TT";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.footer__services__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.footer__services__column {
+  display: grid;
+  gap: 2rem;
+}
+.footer__services__column__2 {
+  display: grid;
+  margin-bottom: 4rem;
+}
+.footer__services__item {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 400;
+  color: #777777;
+  margin: 0;
+}
+.footer__contact__us {
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+.footer__contact__us__tittle {
+  font-family: "Old Standard TT";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: -2rem;
+}
+.footer__contact__us__phone, .footer__contact__us__email, .footer__contact__us__location {
+  display: inline-flex;
+  margin-top: 5rem;
+  padding: 0;
+}
+.footer__contact__us__phone__text, .footer__contact__us__email__text, .footer__contact__us__location__text {
+  margin-left: 2rem;
+}
+.footer__contact__us__phone__tittle, .footer__contact__us__email__tittle, .footer__contact__us__location__tittle {
+  font-family: "Old Standard TT";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.footer__contact__us__phone__body, .footer__contact__us__email__body, .footer__contact__us__location__body {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+}
+
+.terms {
+  width: 100%;
+  height: 94px;
+  background-color: #f8f8f8;
+}
+.terms__copyright {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  letter-spacing: -0.4799999893px;
+  text-align: left;
+  color: #222222;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.terms__txt {
+  display: flex;
+  align-items: center;
+}
+.terms__information {
+  margin: 1rem;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  letter-spacing: -0.4799999893px;
+  text-align: left;
+  text-decoration: none;
+  color: #222222;
+}
+.terms__conditions {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  letter-spacing: -0.4799999893px;
+  text-align: left;
+  text-decoration: none;
+  color: #222222;
+  margin: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+}
+
+.header {
+  background-color: #333333;
+  width: 100%;
+  height: 16.563rem;
+}
+.header__text {
+  padding-top: 4rem;
+  margin-left: 1.3rem;
+}
+.header__text__small {
+  font-family: "Archivo";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  text-align: left;
+  color: white;
+  width: 15rem;
+}
+.header__text__big {
+  font-family: "Old Standard TT";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.2000000477px;
+  text-align: left;
+  color: white;
+  margin-top: 1rem;
+}
+.header__btn {
+  width: 156px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  position: absolute;
+  right: 1rem;
+  bottom: 20.7rem;
+}
+.header__btn__home {
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.41px;
+  letter-spacing: -0.4799999893px;
+  text-align: left;
+  text-decoration: none;
+  color: #222222;
+  margin-right: 0.8rem;
+}
+.header__btn__about {
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.41px;
+  letter-spacing: -0.4799999893px;
+  text-align: left;
+  text-decoration: none;
+  color: #222222;
+  color: #bdac8d;
+  margin-left: 0.8rem;
+}/*# sourceMappingURL=about-us.css.map */

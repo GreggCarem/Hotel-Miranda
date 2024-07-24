@@ -51,3 +51,15 @@
   margin-top: 2rem;
   margin-left: 1.3rem;
 }
+
+//Header pages
+@mixin btn-home {
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.41px;
+  letter-spacing: -0.47999998927116394px;
+  text-align: left;
+  text-decoration: none;
+  color: #222222;
+}
