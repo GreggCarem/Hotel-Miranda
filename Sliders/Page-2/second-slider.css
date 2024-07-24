@@ -1,0 +1,82 @@
+.Swiper2 {
+  width: 100%;
+  height: 23.125rem;
+  background-color: #292929;
+
+  padding-bottom: 2rem;
+}
+.swiper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.Swiper2 .swiper-pagination {
+  background-color: #222222;
+  position: absolute;
+  bottom: 0rem !important;
+}
+
+.Swiper2 .swiper-pagination-bullet {
+  background: #ededed;
+  transition: background 0.3s ease;
+}
+
+.Swiper2 .swiper-pagination-bullet-active {
+  background: #bdac8d;
+}
+
+.Swiper2 .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.Swiper2 .swiper-slide-number {
+  font-family: "Archivo";
+  font-size: 120px;
+  font-weight: 700;
+  position: absolute;
+  right: 1rem;
+  top: 0rem;
+  color: 222222;
+}
+
+.Swiper2 .swiper-slide-logo {
+  width: 4.375rem;
+  height: 4.375rem;
+  position: relative;
+  object-fit: contain;
+  left: 4.4rem;
+  top: -4rem;
+}
+
+.Swiper2 .swiper-slide-logos {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.Swiper2 .swiper-slide-main-txt {
+  display: block;
+  margin-top: 9rem;
+  margin-right: 2rem;
+}
+
+.Swiper2 .swiper-slide-title {
+  font-family: "Old Standard TT";
+  font-size: 30px;
+  font-weight: 400;
+  width: 20rem;
+  text-align: left;
+  margin-bottom: 1.7rem;
+}
+
+.Swiper2 .swiper-slide-body {
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #777777;
+  width: 15.625rem;
+}

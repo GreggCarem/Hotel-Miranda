@@ -1,3 +1,4 @@
+@import "./Sliders/Page-2/second-slider.css";
 .nav {
   width: 100%;
   height: 4.375rem;
@@ -420,8 +421,12 @@
   justify-content: space-around;
   align-items: center;
   justify-items: center;
+  margin: auto;
+  width: 90%;
   margin-top: 5rem;
-  margin-bottom: -1rem;
+  margin-bottom: 5rem;
+  padding-bottom: 2rem;
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1019607843);
 }
 .restaurant__img {
   width: 295px;
@@ -478,4 +483,41 @@
   margin-left: 1.3rem;
   margin-left: -4.8rem;
   margin-top: -1rem;
+}
+
+.core__features {
+  background-color: #222222;
+  padding-top: 0.8rem;
+  padding-bottom: 4rem;
+}
+.core__features__subtittle {
+  font-family: "Archivo";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  text-align: left;
+  color: white;
+  color: white;
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  margin-top: 3rem;
+}
+.core__features__tittle {
+  font-family: "Old Standard TT";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.2000000477px;
+  text-align: left;
+  color: #111111;
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white;
 }/*# sourceMappingURL=about-us.css.map */
