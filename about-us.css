@@ -1,4 +1,5 @@
 @import "./Sliders/Page-2/second-slider.css";
+@import "./Sliders/Page-2/fourth-slider.css";
 .nav {
   width: 100%;
   height: 4.375rem;
@@ -520,4 +521,170 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   color: white;
+}
+
+.fun__facts {
+  padding-top: 2rem;
+}
+.fun__facts__subtittle {
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #777777;
+  font-weight: 700;
+  margin-left: 1.5rem;
+  padding-top: 1.5rem;
+}
+.fun__facts__tittle {
+  font-family: "Old Standard TT";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 49.44px;
+  letter-spacing: -1.0499999523px;
+  text-align: left;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  width: 15rem;
+  margin-bottom: 2rem;
+}
+.fun__facts__element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.fun__facts__element__1 {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+}
+.fun__facts__element__1__img {
+  width: 65px;
+  height: 65px;
+  display: block;
+}
+.fun__facts__element__1__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 1rem;
+}
+.fun__facts__element__1__text__number {
+  font-family: "Old Standard TT";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.7999999523px;
+  text-align: left;
+  color: #222222;
+}
+.fun__facts__element__1__text__description {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #777777;
+  margin-left: 0.4rem;
+  margin-left: -3rem;
+}
+.fun__facts__element__1__arrow {
+  width: 50px;
+  height: auto;
+  margin-left: 3rem;
+  display: block;
+}
+.fun__facts__element__2 {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+}
+.fun__facts__element__2__img {
+  width: 65px;
+  height: 65px;
+  display: block;
+}
+.fun__facts__element__2__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 1rem;
+}
+.fun__facts__element__2__text__number {
+  font-family: "Old Standard TT";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.7999999523px;
+  text-align: left;
+  color: #222222;
+}
+.fun__facts__element__2__text__description {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #777777;
+  margin-left: 0.4rem;
+  margin-left: 1rem;
+}
+.fun__facts__element__2__arrow {
+  width: 50px;
+  height: auto;
+  margin-left: 3rem;
+  display: block;
+}
+.fun__facts__element__3 {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+}
+.fun__facts__element__3__img {
+  width: 65px;
+  height: 65px;
+  display: block;
+}
+.fun__facts__element__3__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 1rem;
+}
+.fun__facts__element__3__text__number {
+  font-family: "Old Standard TT";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.7999999523px;
+  text-align: left;
+  color: #222222;
+  margin-left: 0.5rem;
+}
+.fun__facts__element__3__text__description {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #777777;
+  margin-left: 0.4rem;
+  margin-left: 1.2rem;
+}
+.fun__facts__element__3__arrow {
+  width: 50px;
+  height: auto;
+  margin-left: 4rem;
+  display: block;
 }/*# sourceMappingURL=about-us.css.map */
