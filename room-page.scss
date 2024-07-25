@@ -1,0 +1,42 @@
+// Import the components
+@import "./styles/components/Navigation";
+@import "./styles/components/Footer";
+@import "./styles/components/Header";
+// Style constants
+@import "./styles/constants/Colors";
+@import "./styles/constants/Text";
+@import "./styles/constants/Btns";
+
+//Import Sliders
+
+@import "./Sliders/Page-2/second-slider.css";
+@import "./Sliders/Page-2/fourth-slider.css";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+}
+
+.header {
+  &__btn {
+    width: 207px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    right: -9rem;
+    bottom: -3.7rem;
+    &__home {
+      @include btn-home;
+      margin-right: 0.8rem;
+    }
+    &__about {
+      @include btn-home;
+      color: $light-ochre-color;
+      margin-left: 0.8rem;
+    }
+  }
+}

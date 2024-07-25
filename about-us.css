@@ -239,13 +239,6 @@
   margin: 1rem;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Open Sans;
-}
-
 .header {
   background-color: #333333;
   width: 100%;
@@ -308,6 +301,13 @@
   color: #222222;
   color: #bdac8d;
   margin-left: 0.8rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
 }
 
 .video__intro {
