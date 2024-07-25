@@ -1,0 +1,261 @@
+// Import the components
+@import "./styles/components/Navigation";
+@import "./styles/components/Footer";
+@import "./styles/components/Header";
+// Style constants
+@import "./styles/constants/Colors";
+@import "./styles/constants/Text";
+@import "./styles/constants/Btns";
+
+//Import Sliders
+
+@import "./Sliders/Page-5/slider.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+}
+.header__btn {
+  width: 207px;
+  right: -11.5rem;
+}
+
+//Luxury Double Bed
+.luxury__double__bed {
+  padding: 1rem;
+
+  &__subtittle {
+    margin-top: 1.2rem;
+    margin-bottom: 0.6rem;
+
+    @include main-txt;
+    color: $text-grey;
+  }
+  &__tittle {
+    margin-bottom: 1.5rem;
+
+    @include namimg-text;
+    font-size: 40px;
+    color: $text-grey;
+    width: 21rem;
+    line-height: 48px;
+    text-align: left;
+  }
+
+  &__price {
+    font-family: "Archivo";
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32.64px;
+    color: #bead8e;
+    text-align: left;
+    margin-bottom: 1.5rem;
+
+    &__small {
+      font-family: "Archivo";
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 13.06px;
+      text-align: right;
+    }
+  }
+  &__img {
+    width: 100%;
+    height: 214px;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+  }
+}
+
+// Calendar
+.calendar {
+  display: grid;
+  padding: 1rem;
+  &__inner {
+    margin-top: 2rem;
+  }
+  &__line {
+    width: 91%;
+    height: 2px;
+    background-color: $ochre-color;
+    margin-top: 0.6rem;
+  }
+  &__input {
+    background-color: #f8f8f8;
+    border: none;
+    color: $text-grey;
+    display: block;
+    margin: auto;
+    margin-top: 0.9rem;
+    width: 290px;
+    height: 60px;
+  }
+
+  &__arrival__txt {
+    @include calendar-txt;
+    color: #222222;
+    margin-left: 3rem;
+  }
+  &__departure__txt {
+    @include calendar-txt;
+    margin-top: 2rem;
+    color: #222222;
+    margin-left: 3rem;
+  }
+  &__btn {
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    @include btn-check-availability;
+
+    @include btn-text;
+  }
+}
+
+.calendar__input::-webkit-calendar-picker-indicator {
+  position: absolute;
+
+  left: 19.5rem;
+}
+.calendar__input::-webkit-datetime-edit {
+  margin-left: 2rem;
+}
+
+//Paragraph
+.about__room {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding: 2rem;
+  width: 25rem;
+  color: $text-grey;
+}
+
+//Features
+
+.features {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  &__line {
+    background: #f1f1f1;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 3rem;
+  }
+  h1 {
+    font-family: " Old Standard TT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 0.6rem;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 7fr);
+    column-gap: 1.5rem;
+    row-gap: 0.8rem;
+
+    .feature {
+      display: grid;
+      grid-template-columns: 1.8rem auto;
+
+      img {
+        width: 1rem;
+      }
+
+      p {
+        font-family: "Roboto";
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 17.58px;
+        text-align: left;
+        color: $text-grey;
+      }
+    }
+  }
+}
+
+//Founder
+.founder__image {
+  &__person {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    margin-top: 6rem;
+  }
+  &__check {
+    padding: 1rem;
+    background-color: #222222;
+    border-radius: 50%;
+    position: relative;
+    top: -9.5rem;
+    right: -14.9rem;
+    border: 5px solid white;
+  }
+}
+
+.founder__text {
+  padding: 2rem;
+  margin-top: -3rem;
+  &__name {
+    font-family: "Old Standard TT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.8999999761581421px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  &__position {
+    @include main-txt;
+    text-align: center;
+    color: $light-ochre-color;
+    margin-bottom: 1rem;
+  }
+
+  &__description {
+    @include main-txt;
+    font-size: 16px;
+    text-align: center;
+    width: 21rem;
+  }
+}
+
+//Cancelation
+.cancellation {
+  padding: 1.5rem;
+
+  &__tittle {
+    @include namimg-text;
+    text-align: left;
+  }
+  &__line {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    height: 1px;
+    background-color: #f1f1f1;
+  }
+
+  &__text {
+    @include naming-description-text;
+    font-size: 16px;
+    text-align: left;
+    color: $text-grey;
+    width: 21rem;
+  }
+}
