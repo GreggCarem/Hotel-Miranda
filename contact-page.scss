@@ -13,3 +13,258 @@
   padding: 0;
   font-family: Open Sans;
 }
+
+.information {
+  padding: 2rem;
+
+  &__1 {
+    display: block;
+    margin-top: 5rem;
+
+    &__img {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 10px;
+      width: 40px;
+      height: 38px;
+    }
+
+    &__tittle {
+      display: inline-block;
+      vertical-align: top;
+      font-family: "Old Standard TT";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-left: 1rem;
+      z-index: 2;
+      position: absolute;
+    }
+    &__description {
+      display: block;
+
+      margin-left: 4.5rem;
+      font-family: "Roboto";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16.41px;
+      width: 11rem;
+      color: #777777;
+      z-index: 2;
+      position: absolute;
+    }
+
+    &__number {
+      position: relative;
+      top: -6rem;
+      right: -8rem;
+      font-family: "Roboto";
+      font-size: 200px;
+      font-weight: 700;
+      line-height: 234.38px;
+      letter-spacing: -6px;
+      color: #f8f8f8;
+      width: fit-content;
+    }
+  }
+
+  &__2 {
+    display: block;
+    margin-top: 1rem;
+
+    &__img {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 10px;
+      width: 40px;
+      height: 38px;
+    }
+
+    &__tittle {
+      display: inline-block;
+      vertical-align: top;
+      font-family: "Old Standard TT";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-left: 1rem;
+      z-index: 2;
+      position: absolute;
+    }
+    &__description {
+      display: block;
+
+      margin-left: 4.5rem;
+      font-family: "Roboto";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16.41px;
+      width: 8.8rem;
+      color: #777777;
+      z-index: 2;
+      position: absolute;
+    }
+
+    &__number {
+      position: relative;
+      top: -6rem;
+      right: -8rem;
+      font-family: "Roboto";
+      font-size: 200px;
+      font-weight: 700;
+      line-height: 234.38px;
+      letter-spacing: -6px;
+      color: #f8f8f8;
+      width: fit-content;
+    }
+  }
+  &__3 {
+    display: block;
+    margin-top: 1rem;
+
+    &__img {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 10px;
+      width: 40px;
+      height: 38px;
+    }
+
+    &__tittle {
+      display: inline-block;
+      vertical-align: top;
+      font-family: "Old Standard TT";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-left: 1rem;
+      z-index: 2;
+      position: absolute;
+    }
+    &__description {
+      display: block;
+
+      margin-left: 4.5rem;
+      font-family: "Roboto";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16.41px;
+      width: 8.8rem;
+      color: #777777;
+      z-index: 2;
+      position: absolute;
+    }
+
+    &__number {
+      position: relative;
+      top: -6rem;
+      right: -8rem;
+      font-family: "Roboto";
+      font-size: 200px;
+      font-weight: 700;
+      line-height: 234.38px;
+      letter-spacing: -6px;
+      color: #f8f8f8;
+      width: fit-content;
+    }
+  }
+}
+.image__room {
+  width: 335px;
+  height: 200px;
+  display: block;
+  margin: auto;
+  margin-top: -3rem;
+}
+
+.contact__form {
+  display: grid;
+  justify-items: start;
+  gap: 1rem;
+  margin-top: 4rem;
+
+  img {
+    position: relative;
+    left: 41px;
+    width: 14px;
+    height: 14px;
+  }
+
+  textarea {
+  }
+}
+
+.contact__form__message__img {
+  position: relative;
+  left: 41px;
+  top: -9rem;
+  width: 14px;
+  height: 14px;
+}
+.contact__form input,
+.contact__form textarea {
+  width: 335px;
+  height: 67px;
+  border: none;
+  background-color: #f8f8f8;
+}
+
+/* Specific placeholder styling */
+.contact__form__name .name::placeholder {
+  color: #777777;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 7rem;
+}
+
+.contact__form__phone .number::placeholder {
+  color: #777777;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 5rem;
+}
+
+.contact__form__email .email::placeholder {
+  color: #777777;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 5rem;
+}
+
+.contact__form__subject .subject::placeholder {
+  color: #777777;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 7.4rem;
+}
+
+.contact__form__message .message::placeholder {
+  color: #777777;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  top: 1rem;
+  left: -3rem;
+}
+
+.contact__form__message textarea {
+  width: 335px;
+  height: 175px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.form__btn {
+  @include book-now;
+  margin: auto;
+}
