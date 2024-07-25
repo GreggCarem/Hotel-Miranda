@@ -17,26 +17,3 @@
   padding: 0;
   font-family: Open Sans;
 }
-
-.header {
-  &__btn {
-    width: 207px;
-    height: 49px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    position: relative;
-    right: -9rem;
-    bottom: -3.7rem;
-    &__home {
-      @include btn-home;
-      margin-right: 0.8rem;
-    }
-    &__about {
-      @include btn-home;
-      color: $light-ochre-color;
-      margin-left: 0.8rem;
-    }
-  }
-}

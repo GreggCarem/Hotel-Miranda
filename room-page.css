@@ -308,39 +308,4 @@
   margin: 0;
   padding: 0;
   font-family: Open Sans;
-}
-
-.header__btn {
-  width: 207px;
-  height: 49px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  position: relative;
-  right: -9rem;
-  bottom: -3.7rem;
-}
-.header__btn__home {
-  font-family: "Archivo";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 17.41px;
-  letter-spacing: -0.4799999893px;
-  text-align: left;
-  text-decoration: none;
-  color: #222222;
-  margin-right: 0.8rem;
-}
-.header__btn__about {
-  font-family: "Archivo";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 17.41px;
-  letter-spacing: -0.4799999893px;
-  text-align: left;
-  text-decoration: none;
-  color: #222222;
-  color: #bdac8d;
-  margin-left: 0.8rem;
 }/*# sourceMappingURL=room-page.css.map */
