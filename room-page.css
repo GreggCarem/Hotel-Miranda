@@ -237,6 +237,26 @@
   margin: 1rem;
 }
 
+@media only screen and (min-width: 1000px) {
+  .footer__logos {
+    flex-direction: row;
+  }
+  .footer__text {
+    max-width: 600px;
+  }
+  .footer__social__media {
+    justify-content: start;
+  }
+  .footer__services {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer__contact__us {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer .terms {
+    justify-content: space-between;
+  }
+}
 .header {
   background-color: #333333;
   width: 100%;
@@ -327,7 +347,7 @@
 }
 .header__btn {
   right: 2.5rem;
-  bottom: 35rem;
+  bottom: 20.7rem;
 }
 .header__btn__home {
   font-family: "Archivo";

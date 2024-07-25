@@ -240,6 +240,26 @@
   margin: 1rem;
 }
 
+@media only screen and (min-width: 1000px) {
+  .footer__logos {
+    flex-direction: row;
+  }
+  .footer__text {
+    max-width: 600px;
+  }
+  .footer__social__media {
+    justify-content: start;
+  }
+  .footer__services {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer__contact__us {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer .terms {
+    justify-content: space-between;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
