@@ -329,7 +329,7 @@
 .room__img__photo {
   width: 20.938rem;
   height: 162px;
-  margin-left: -1.35rem;
+  margin-left: 0rem;
 }
 
 .room__price__cancelled {
