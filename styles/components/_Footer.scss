@@ -191,26 +191,23 @@
     }
 
     &__text {
-      max-width: 600px; // Widening the text area for desktop
+      max-width: 600px;
     }
 
     &__social__media {
-      justify-content: start; // Aligning social media icons horizontally for desktop
+      justify-content: start;
     }
 
     &__services {
-      grid-template-columns: 1fr 1fr; // Adjusting services layout for desktop
+      grid-template-columns: 1fr 1fr;
     }
 
     &__contact__us {
-      grid-template-columns: repeat(
-        3,
-        1fr
-      ); // Adjusting contact layout for desktop
+      grid-template-columns: repeat(3, 1fr);
     }
 
     .terms {
-      justify-content: space-between; // Aligning terms elements horizontally for desktop
+      justify-content: space-between;
     }
   }
 }
