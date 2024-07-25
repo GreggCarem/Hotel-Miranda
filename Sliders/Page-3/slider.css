@@ -1,0 +1,125 @@
+.first-slider {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+}
+
+.first-slider .swiper-slide-img {
+  width: 20.938rem;
+  height: 244px;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+}
+
+.first-slider .swiper-slide-rules {
+  width: 256px;
+  height: 66px;
+  position: relative;
+  top: -2.6rem;
+  display: inline-block;
+  display: block;
+  margin: auto;
+}
+
+.first-slider .swiper-slide-text {
+  width: 20.938rem;
+  height: auto;
+  padding-bottom: 2rem;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -2rem;
+}
+
+.first-slider .swiper-slide-text-title {
+  padding-top: 1rem;
+  font-family: "Old Standard TT";
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.first-slider .swiper-slide-text-body {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  width: 20rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.first-slider .swiper-slide-text-price {
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.41px;
+  text-align: right;
+  margin: auto;
+  color: #bdac8d;
+}
+
+.first-slider .swiper-slide-text-book-now {
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.41px;
+  text-align: right;
+  color: #bdbdbd;
+  margin-left: 2rem;
+  margin-right: 4rem;
+  text-align: center;
+}
+
+.first-slider .swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(0.3rem);
+}
+
+.first-slider .swiper-pagination-bullet {
+  width: auto;
+  height: auto;
+  margin: 0 5px;
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 0px;
+  font-size: 14px;
+  color: #222222;
+  cursor: pointer;
+}
+
+.first-slider .swiper-pagination-bullet-active {
+  font-family: "Oswald";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+
+  background-color: #bead8e;
+  color: #fff;
+}
+
+.first-slider .swiper-button-prev,
+.first-slider .swiper-button-next {
+  color: transparent;
+}
+
+.first-slider .swiper-button-prev {
+  left: 4rem;
+  top: 180rem;
+  width: 16px;
+  height: 16px;
+}
+
+.first-slider .swiper-button-next {
+  right: 3rem;
+  top: 180rem;
+  width: 16px;
+  height: 16px;
+}
