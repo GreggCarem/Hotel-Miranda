@@ -5,7 +5,6 @@
 
 .Swiper2 .swiper-pagination-bullet {
   background: #ededed;
-  transition: background 0.3s ease;
 }
 
 .Swiper2 .swiper-pagination-bullet-active {
