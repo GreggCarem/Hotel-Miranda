@@ -485,7 +485,6 @@
   background-color: #f8f8f8;
 }
 
-/* Specific placeholder styling */
 .contact__form__name .name::placeholder {
   color: #777777;
   font-family: "Roboto";

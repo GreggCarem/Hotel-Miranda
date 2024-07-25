@@ -20,6 +20,10 @@
 .header__btn {
   right: 2.5rem;
   bottom: 20.7rem;
+  width: 12rem;
+}
+.header__text__big {
+  width: 10rem;
 }
 
 //Luxury Double Bed
@@ -132,9 +136,9 @@
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  padding: 2rem;
-  width: 25rem;
-  color: $text-grey;
+  padding: 1rem;
+  width: 23rem;
+  color: #777777;
 }
 
 //Features
