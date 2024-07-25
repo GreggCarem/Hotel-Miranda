@@ -1,4 +1,4 @@
-@import "./Sliders/Page-5/slider.css";
+@import "./Sliders/Page-4/slider.css";
 .nav {
   width: 100%;
   height: 4.375rem;
@@ -574,4 +574,23 @@
   text-align: left;
   color: #777777;
   width: 21rem;
+}
+
+.swiper__information {
+  padding: 1.5rem;
+}
+.swiper__information__tittle {
+  font-family: "Old Standard TT";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.8999999762px;
+}
+.swiper__information__line {
+  background: #f1f1f1;
+  width: 100%;
+  height: 1px;
+  margin: auto;
+  margin-top: 1.5rem;
+  margin-bottom: -1.5rem;
 }/*# sourceMappingURL=ultimate-room.css.map */

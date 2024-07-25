@@ -9,7 +9,7 @@
 
 //Import Sliders
 
-@import "./Sliders/Page-5/slider.css";
+@import "./Sliders/Page-4/slider.css";
 
 * {
   box-sizing: border-box;
@@ -257,5 +257,21 @@
     text-align: left;
     color: $text-grey;
     width: 21rem;
+  }
+}
+//Swiper
+
+.swiper__information {
+  padding: 1.5rem;
+  &__tittle {
+    @include namimg-text;
+  }
+  &__line {
+    background: #f1f1f1;
+    width: 100%;
+    height: 1px;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: -1.5rem;
   }
 }
