@@ -282,9 +282,9 @@
   align-items: center;
   justify-content: center;
   background-color: white;
-  position: absolute;
-  right: 1rem;
-  bottom: 20.7rem;
+  position: relative;
+  right: -12.5rem;
+  bottom: -3.7rem;
 }
 .header__btn__home {
   font-family: "Archivo";
