@@ -1,0 +1,197 @@
+// Import the components
+@import "./styles/components/Navigation";
+@import "./styles/components/Footer";
+@import "./styles/components/Header";
+// Style constants
+@import "./styles/constants/Colors";
+@import "./styles/constants/Text";
+@import "./styles/constants/Btns";
+
+//Import Sliders
+
+@import "./Sliders/Page-5/slider.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+}
+
+.rooms {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.room__1 {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+
+  justify-items: start;
+  padding: 1.5rem;
+
+  box-shadow: 0px 14px 24px 0px #b8b8b81a;
+}
+
+.room__img {
+  &__photo {
+    width: 20.938rem;
+    height: 162px;
+
+    margin-left: -1.35rem;
+  }
+}
+
+.room__price {
+  &__cancelled {
+    font-family: "Archivo";
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 25.02px;
+    text-align: right;
+    color: $ochre-color;
+    text-decoration: line-through;
+    position: relative;
+    top: -5rem;
+    left: -3rem;
+
+    &__small {
+      font-family: "Archivo";
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 11.97px;
+      text-align: right;
+      color: $ochre-color;
+      text-decoration: line-through;
+      position: relative;
+      top: -6.3rem;
+      right: -7.8rem;
+    }
+  }
+
+  &__discount {
+    font-family: "Archivo";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32.64px;
+    text-align: right;
+    color: $redish-pink;
+    position: relative;
+    top: -5.5rem;
+    left: -1rem;
+
+    &__small {
+      font-family: "Archivo";
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 13.06px;
+      text-align: right;
+    }
+  }
+}
+
+.room__information {
+  margin-top: -3rem;
+  &__subtittle {
+    margin-bottom: 0.6rem;
+    @include main-txt;
+    color: $text-grey;
+  }
+  &__tittle {
+    margin-bottom: 1.5rem;
+    @include namimg-text;
+    font-size: 40px;
+    color: $text-grey;
+    width: 15rem;
+    line-height: 48px;
+    text-align: left;
+  }
+  &__body {
+    font-family: "Roboto";
+    @include main-txt;
+    color: $text-grey;
+    width: 18rem;
+  }
+}
+
+.features {
+  margin: auto;
+  margin-top: 2rem;
+
+  h1 {
+    font-family: "Old Standard TT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  &__line {
+    width: 20.938rem;
+    height: 1px;
+
+    background-color: #f1f1f1;
+    margin-bottom: 2rem;
+  }
+
+  .features__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 7fr);
+    grid-gap: 14px;
+    column-gap: 0;
+
+    .feature {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 16px;
+        height: 16px;
+        margin-right: 0.5rem;
+      }
+
+      p {
+        font-family: "Roboto";
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 17.58px;
+        text-align: left;
+        color: $text-grey;
+        width: 9rem;
+      }
+    }
+  }
+}
+.book__now__btn {
+  @include book-now;
+  margin-left: 0rem;
+}
+
+//Swiper
+.swiper__information {
+  background-color: #222222;
+  padding-bottom: 4rem;
+
+  &__subtittle {
+    font-family: "Archivo";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15.23px;
+    letter-spacing: 2.799999952316284px;
+    text-align: left;
+    color: #bdac8d;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  &__tittle {
+    @include big-letters;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+  }
+}

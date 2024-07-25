@@ -1,0 +1,507 @@
+@import "./Sliders/Page-5/slider.css";
+.nav {
+  width: 100%;
+  height: 4.375rem;
+  padding-top: 1.2rem;
+  padding-left: 1.3rem;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+}
+.nav__menu {
+  display: inline-block;
+}
+.nav__menu__img {
+  width: 1.25rem;
+  height: 0.813rem;
+  cursor: pointer;
+}
+.nav__menu__content {
+  position: absolute;
+  list-style-type: none;
+  margin-top: 1.3rem;
+  width: 100%;
+  height: 13rem;
+  background-color: white;
+  margin-left: -1.3rem;
+  display: none;
+}
+.nav__menu__content li {
+  padding-top: 0.9em;
+  padding-bottom: 0.5em;
+  margin-left: 1.3rem;
+}
+.nav__menu__content li a {
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: Archivo;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17.41px;
+  width: 20rem;
+}
+.nav__logo {
+  display: inline-flex;
+  margin-left: 2rem;
+}
+.nav__logo__img {
+  box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.2509803922);
+  width: 35.96px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  opacity: 0px;
+}
+.nav__logo__detail {
+  width: 0.688rem;
+  height: 0.772rem;
+}
+.nav__logo__name {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+.nav__btns {
+  display: flex;
+  float: right;
+  margin-right: 1.5rem;
+  align-content: space-between;
+  gap: 1rem;
+  margin-top: 0.3rem;
+}
+
+.menu__close {
+  width: 0.975rem;
+  height: 0.975rem;
+  margin-right: 0.28rem;
+}
+
+.footer {
+  background-image: url("../../Resources/Background-footer.png");
+  width: 100%;
+  height: 75rem;
+  margin-top: 5rem;
+}
+.footer__logos {
+  padding-top: 2rem;
+}
+.footer__logos__img {
+  padding: 1rem;
+  background-color: #bead8e;
+  margin-left: 1.5rem;
+  box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.1490196078);
+}
+.footer__logos__name {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.footer__text {
+  margin-top: 2.5rem;
+  margin-left: 1.5rem;
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #777777;
+  line-height: 26px;
+  width: 335px;
+  height: 130px;
+}
+.footer__social__media {
+  display: inline-flex;
+  gap: 1.7rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.footer__services {
+  padding: 1.5rem;
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+.footer__services__options__div {
+  margin-bottom: 1.5rem;
+}
+.footer__services__heading {
+  font-family: "Old Standard TT";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.footer__services__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.footer__services__column {
+  display: grid;
+  gap: 2rem;
+}
+.footer__services__column__2 {
+  display: grid;
+  margin-bottom: 4rem;
+}
+.footer__services__item {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 400;
+  color: #777777;
+  margin: 0;
+}
+.footer__contact__us {
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+.footer__contact__us__tittle {
+  font-family: "Old Standard TT";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: -2rem;
+}
+.footer__contact__us__phone, .footer__contact__us__email, .footer__contact__us__location {
+  display: inline-flex;
+  margin-top: 5rem;
+  padding: 0;
+}
+.footer__contact__us__phone__text, .footer__contact__us__email__text, .footer__contact__us__location__text {
+  margin-left: 2rem;
+}
+.footer__contact__us__phone__tittle, .footer__contact__us__email__tittle, .footer__contact__us__location__tittle {
+  font-family: "Old Standard TT";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.footer__contact__us__phone__body, .footer__contact__us__email__body, .footer__contact__us__location__body {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+}
+
+.terms {
+  width: 100%;
+  height: 94px;
+  background-color: #f8f8f8;
+}
+.terms__copyright {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  letter-spacing: -0.4799999893px;
+  text-align: left;
+  color: #222222;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.terms__txt {
+  display: flex;
+  align-items: center;
+}
+.terms__information {
+  margin: 1rem;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  letter-spacing: -0.4799999893px;
+  text-align: left;
+  text-decoration: none;
+  color: #222222;
+}
+.terms__conditions {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  letter-spacing: -0.4799999893px;
+  text-align: left;
+  text-decoration: none;
+  color: #222222;
+  margin: 1rem;
+}
+
+.header {
+  background-color: #333333;
+  width: 100%;
+  height: 16.563rem;
+}
+.header__text {
+  padding-top: 4rem;
+  margin-left: 1.3rem;
+}
+.header__text__small {
+  font-family: "Archivo";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  text-align: left;
+  color: white;
+  width: 15rem;
+}
+.header__text__big {
+  font-family: "Old Standard TT";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.2000000477px;
+  text-align: left;
+  color: white;
+  margin-top: 1rem;
+}
+.header__btn {
+  width: 156px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+  right: -12.5rem;
+  bottom: -3.7rem;
+}
+.header__btn__home {
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.41px;
+  letter-spacing: -0.4799999893px;
+  text-align: left;
+  text-decoration: none;
+  color: #222222;
+  margin-right: 0.8rem;
+}
+.header__btn__about {
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.41px;
+  letter-spacing: -0.4799999893px;
+  text-align: left;
+  text-decoration: none;
+  color: #222222;
+  color: #bdac8d;
+  margin-left: 0.8rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+}
+
+.rooms {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.room__1 {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  justify-items: start;
+  padding: 1.5rem;
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1019607843);
+}
+
+.room__img__photo {
+  width: 20.938rem;
+  height: 162px;
+  margin-left: -1.35rem;
+}
+
+.room__price__cancelled {
+  font-family: "Archivo";
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 25.02px;
+  text-align: right;
+  color: #bead8e;
+  text-decoration: line-through;
+  position: relative;
+  top: -5rem;
+  left: -3rem;
+}
+.room__price__cancelled__small {
+  font-family: "Archivo";
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 11.97px;
+  text-align: right;
+  color: #bead8e;
+  text-decoration: line-through;
+  position: relative;
+  top: -6.3rem;
+  right: -7.8rem;
+}
+.room__price__discount {
+  font-family: "Archivo";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 32.64px;
+  text-align: right;
+  color: #de5777;
+  position: relative;
+  top: -5.5rem;
+  left: -1rem;
+}
+.room__price__discount__small {
+  font-family: "Archivo";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 13.06px;
+  text-align: right;
+}
+
+.room__information {
+  margin-top: -3rem;
+}
+.room__information__subtittle {
+  margin-bottom: 0.6rem;
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #777777;
+  color: #777777;
+}
+.room__information__tittle {
+  margin-bottom: 1.5rem;
+  font-family: "Old Standard TT";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.8999999762px;
+  font-size: 40px;
+  color: #777777;
+  width: 15rem;
+  line-height: 48px;
+  text-align: left;
+}
+.room__information__body {
+  font-family: "Roboto";
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #777777;
+  color: #777777;
+  width: 18rem;
+}
+
+.features {
+  margin: auto;
+  margin-top: 2rem;
+}
+.features h1 {
+  font-family: "Old Standard TT";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.features__line {
+  width: 20.938rem;
+  height: 1px;
+  background-color: #f1f1f1;
+  margin-bottom: 2rem;
+}
+.features .features__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 7fr);
+  grid-gap: 14px;
+  column-gap: 0;
+}
+.features .features__grid .feature {
+  display: flex;
+  align-items: center;
+}
+.features .features__grid .feature img {
+  width: 16px;
+  height: 16px;
+  margin-right: 0.5rem;
+}
+.features .features__grid .feature p {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 17.58px;
+  text-align: left;
+  color: #777777;
+  width: 9rem;
+}
+
+.book__now__btn {
+  align-items: center;
+  text-align: center;
+  display: grid;
+  width: 216px;
+  height: 60px;
+  background: #bdac8d;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  font-family: Archivo;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15.23px;
+  letter-spacing: 2.7999999523px;
+  color: white;
+  margin-top: 2rem;
+  margin-left: 1.3rem;
+  margin-left: 0rem;
+}
+
+.swiper__information {
+  background-color: #222222;
+  padding-bottom: 4rem;
+}
+.swiper__information__subtittle {
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15.23px;
+  letter-spacing: 2.7999999523px;
+  text-align: left;
+  color: #bdac8d;
+  text-align: center;
+  padding-top: 2rem;
+}
+.swiper__information__tittle {
+  font-family: "Old Standard TT";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.2000000477px;
+  text-align: left;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+}/*# sourceMappingURL=our-offers.css.map */
