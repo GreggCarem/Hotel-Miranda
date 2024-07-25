@@ -307,6 +307,10 @@
   font-family: Open Sans;
 }
 
+.header__btn {
+  bottom: 35rem;
+}
+
 .information {
   padding: 2rem;
 }

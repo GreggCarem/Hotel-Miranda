@@ -309,6 +309,10 @@
   font-family: Open Sans;
 }
 
+.header__btn {
+  bottom: 35rem;
+}
+
 .video__intro {
   display: grid;
   justify-items: center;

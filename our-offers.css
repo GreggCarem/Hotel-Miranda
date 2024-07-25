@@ -308,6 +308,10 @@
   font-family: Open Sans;
 }
 
+.header__btn {
+  bottom: 35rem;
+}
+
 .rooms {
   display: flex;
   text-align: center;
