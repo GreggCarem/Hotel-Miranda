@@ -1,0 +1,15 @@
+// Import the components
+@import "./styles/components/Navigation";
+@import "./styles/components/Footer";
+@import "./styles/components/Header";
+// Style constants
+@import "./styles/constants/Colors";
+@import "./styles/constants/Text";
+@import "./styles/constants/Btns";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+}
