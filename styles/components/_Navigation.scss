@@ -96,6 +96,9 @@
 .nav__menu__content__desktop {
   display: none;
 }
+.nav__logo__name__desktop {
+  display: none;
+}
 
 @media only screen and (min-width: 1000px) {
   .black__square {
@@ -113,6 +116,11 @@
     top: 2.4rem;
     margin: auto;
     height: 7.5rem;
+
+    &__logo__img {
+      width: 5rem;
+      height: 5rem;
+    }
   }
 
   .nav__menu__content__desktop {
@@ -155,9 +163,18 @@
       border: 2px solid #8585854d;
     }
   }
-
+  //Increase Logo Size
   .nav__logo__img__detail__desktop {
     display: block;
+    width: 1.938rem;
+    height: 2.75rem;
+  }
+  .nav__logo__name__desktop {
+    display: block;
+    width: 8.563rem;
+    height: 3.5rem;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
   }
 
   //NavBar scroll Display
@@ -165,10 +182,6 @@
     display: none;
   }
   .nav {
-    margin-top: 1rem;
-    height: 4.375rem;
-    position: fixed;
-    top: 0;
     z-index: 99;
     transition: top 0.5s ease-in-out;
   }
@@ -186,6 +199,9 @@
     display: none;
   }
   .nav__logo__img__detail {
+    display: none;
+  }
+  .nav__logo__name__mobile {
     display: none;
   }
 }

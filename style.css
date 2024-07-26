@@ -92,6 +92,10 @@
   display: none;
 }
 
+.nav__logo__name__desktop {
+  display: none;
+}
+
 @media only screen and (min-width: 1000px) {
   .black__square {
     width: 100%;
@@ -108,6 +112,10 @@
     top: 2.4rem;
     margin: auto;
     height: 7.5rem;
+  }
+  .nav__logo__img {
+    width: 5rem;
+    height: 5rem;
   }
   .nav__menu__content__desktop {
     display: flex;
@@ -147,15 +155,20 @@
   }
   .nav__logo__img__detail__desktop {
     display: block;
+    width: 1.938rem;
+    height: 2.75rem;
+  }
+  .nav__logo__name__desktop {
+    display: block;
+    width: 8.563rem;
+    height: 3.5rem;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
   }
   .nav__menu__content {
     display: none;
   }
   .nav {
-    margin-top: 1rem;
-    height: 4.375rem;
-    position: fixed;
-    top: 0;
     z-index: 99;
     transition: top 0.5s ease-in-out;
   }
@@ -171,6 +184,9 @@
   .nav__logo__img__detail {
     display: none;
   }
+  .nav__logo__name__mobile {
+    display: none;
+  }
 }
 html,
 body {
@@ -180,7 +196,7 @@ body {
 }
 
 .footer {
-  background-image: url(./../../Resources/Background-footer.png);
+  background-image: url("Resources/Background-footer.png");
   width: 100%;
   margin-top: 5rem;
 }
