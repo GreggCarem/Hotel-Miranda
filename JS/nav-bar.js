@@ -23,12 +23,10 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.clientY < 200) {
       navbar.classList.add("drop-down-nav");
       mouseTop = true;
-      console.log(mouseTop);
     } else if (!e.clientY < 200) {
       navbar.classList.remove("drop-down-nav");
       mouseTop = false;
     } else {
-      console.log("Display has chrashed ");
     }
   });
 });
