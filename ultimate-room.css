@@ -177,7 +177,7 @@ body {
 }
 
 .footer {
-  background-image: url("https://greggcarem.github.io/Resources/Background-footer.png");
+  background-image: url("./Background-footer.png");
   width: 100%;
   margin-top: 5rem;
 }
