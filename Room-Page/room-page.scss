@@ -1,0 +1,72 @@
+// Import the components
+@import ".././styles/components/Navigation";
+@import ".././styles/components/Footer";
+@import ".././styles/components/Header";
+// Style constants
+@import ".././styles/constants/Colors";
+@import ".././styles/constants/Text";
+@import ".././styles/constants/Btns";
+
+//Import Sliders
+
+@import ".././Sliders/Page-3/slider.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+}
+
+.header {
+  background-color: $ultimate-luxury;
+  width: 100%;
+  height: 16.563rem;
+  margin-bottom: 5rem;
+
+  &__text {
+    &__big {
+      @include big-letters;
+      margin-top: 1rem;
+      width: 8rem;
+    }
+  }
+  &__btn {
+    right: 2.5rem;
+    top: 17.9rem;
+
+    &__home {
+      @include btn-home;
+      margin-right: 0.8rem;
+    }
+    &__about {
+      @include btn-home;
+      color: $light-ochre-color;
+      margin-left: 0.8rem;
+    }
+  }
+}
+.footer {
+  background-image: url(".././Resources/Background-footer.png");
+  width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+  //Header
+  .header {
+    height: 22.063rem;
+    &__text {
+      padding-top: 7rem;
+      margin-left: 13.5rem;
+
+      &__big {
+        width: 23rem;
+      }
+    }
+    &__btn {
+      right: 9.5rem;
+      top: 24.2rem;
+    }
+  }
+}
+//

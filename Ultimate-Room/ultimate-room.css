@@ -1,3 +1,4 @@
+@import ".././Sliders/Page-4/slider.css";
 .nav {
   width: 100%;
   height: 4.375rem;
@@ -102,13 +103,6 @@
     display: flex;
     justify-content: center;
   }
-  .nav {
-    width: 90%;
-    position: absolute;
-    top: 2.4rem;
-    margin: auto;
-    height: 7.5rem;
-  }
   .nav__logo__img {
     width: 5rem;
     height: 5rem;
@@ -116,14 +110,15 @@
   .nav__menu__content__desktop {
     display: flex;
     list-style-type: none;
-    margin-top: -1.7rem;
-    margin-left: -15rem;
+    margin-top: -3.4rem;
+    margin-left: -2rem;
     align-items: flex-start;
     justify-content: center;
     align-content: stretch;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2rem;
+    display: scale-down;
   }
   .nav__menu__content__desktop li {
     margin-left: 1.5rem;
@@ -142,17 +137,21 @@
   }
   .nav__btns {
     margin-right: 2rem;
-    margin-top: -1.3rem;
+    margin-top: -2.3rem;
   }
-  .nav__btns img {
-    margin-left: 1rem;
-    padding: 0.2rem;
+  .nav__btns__user {
+    padding: 1rem;
+    border: 2px solid rgba(133, 133, 133, 0.3019607843);
+  }
+  .nav__btns__search {
+    padding: 1rem;
     border: 2px solid rgba(133, 133, 133, 0.3019607843);
   }
   .nav__logo__img__detail__desktop {
     display: block;
     width: 1.938rem;
     height: 2.75rem;
+    object-fit: contain;
   }
   .nav__logo__name__desktop {
     display: block;
@@ -160,13 +159,16 @@
     height: 3.5rem;
     margin-top: 0.3rem;
     margin-left: 1rem;
-  }
-  .nav__menu__content {
-    display: none;
+    object-fit: contain;
   }
   .nav {
+    width: 85%;
+    margin: auto;
+    height: 7.5rem;
+    position: fixed;
+    top: 2rem;
     z-index: 99;
-    transition: top 0.5s ease-in-out;
+    transition: top 0.3s ease-in-out;
   }
   .hidden {
     top: -10.375rem; /* Hide navbar */
@@ -612,6 +614,20 @@ body {
   margin-left: 0.8rem;
 }
 
+@media only screen and (min-width: 1000px) {
+  .header {
+    height: 22.063rem;
+  }
+  .header__text {
+    padding-top: 11rem;
+    margin-left: 13.5rem;
+  }
+  .header__btn {
+    width: 200px;
+    top: 24.2rem;
+    right: 9rem;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -620,260 +636,314 @@ body {
 }
 
 .header__btn {
+  right: 2.5rem;
   top: 17.9rem;
+  width: 12rem;
 }
 
-.information {
-  padding: 2rem;
-}
-.information__1 {
-  display: block;
-  margin-top: 5rem;
-}
-.information__1__img {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 10px;
-  width: 40px;
-  height: 38px;
-}
-.information__1__tittle {
-  display: inline-block;
-  vertical-align: top;
-  font-family: "Old Standard TT";
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-left: 1rem;
-  z-index: 2;
-  position: absolute;
-}
-.information__1__description {
-  display: block;
-  margin-left: 4.5rem;
-  font-family: "Roboto";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16.41px;
-  width: 11rem;
-  color: #777777;
-  z-index: 2;
-  position: absolute;
-}
-.information__1__number {
-  position: relative;
-  top: -6rem;
-  right: -7rem;
-  font-family: "Roboto";
-  font-size: 200px;
-  font-weight: 700;
-  line-height: 234.38px;
-  letter-spacing: -6px;
-  color: #f8f8f8;
-  width: fit-content;
-}
-.information__2 {
-  display: block;
-  margin-top: 1rem;
-}
-.information__2__img {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 10px;
-  width: 40px;
-  height: 38px;
-}
-.information__2__tittle {
-  display: inline-block;
-  vertical-align: top;
-  font-family: "Old Standard TT";
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-left: 1rem;
-  z-index: 2;
-  position: absolute;
-}
-.information__2__description {
-  display: block;
-  margin-left: 4.5rem;
-  font-family: "Roboto";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16.41px;
-  width: 8.8rem;
-  color: #777777;
-  z-index: 2;
-  position: absolute;
-}
-.information__2__number {
-  position: relative;
-  top: -6rem;
-  right: -6rem;
-  font-family: "Roboto";
-  font-size: 200px;
-  font-weight: 700;
-  line-height: 234.38px;
-  letter-spacing: -6px;
-  color: #f8f8f8;
-  width: fit-content;
-}
-.information__3 {
-  display: block;
-  margin-top: 1rem;
-}
-.information__3__img {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 10px;
-  width: 40px;
-  height: 38px;
-}
-.information__3__tittle {
-  display: inline-block;
-  vertical-align: top;
-  font-family: "Old Standard TT";
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-left: 1rem;
-  z-index: 2;
-  position: absolute;
-}
-.information__3__description {
-  display: block;
-  margin-left: 4.5rem;
-  font-family: "Roboto";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16.41px;
-  width: 8.8rem;
-  color: #777777;
-  z-index: 2;
-  position: absolute;
-}
-.information__3__number {
-  position: relative;
-  top: -6rem;
-  right: -6rem;
-  font-family: "Roboto";
-  font-size: 200px;
-  font-weight: 700;
-  line-height: 234.38px;
-  letter-spacing: -6px;
-  color: #f8f8f8;
-  width: fit-content;
+.header__text__big {
+  width: 10rem;
 }
 
-.image__room {
-  width: 335px;
-  height: 200px;
+.luxury__double__bed {
+  padding: 1rem;
+}
+.luxury__double__bed__subtittle {
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #777777;
+  color: #777777;
+}
+.luxury__double__bed__tittle {
+  margin-bottom: 1.5rem;
+  font-family: "Old Standard TT";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.8999999762px;
+  font-size: 40px;
+  color: #777777;
+  width: 21rem;
+  line-height: 48px;
+  text-align: left;
+}
+.luxury__double__bed__price {
+  font-family: "Archivo";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 32.64px;
+  color: #bead8e;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+.luxury__double__bed__price__small {
+  font-family: "Archivo";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 13.06px;
+  text-align: right;
+}
+.luxury__double__bed__img {
+  width: 100%;
+  height: 214px;
   display: block;
   margin: auto;
-  margin-top: -3rem;
+  object-fit: cover;
 }
 
-.contact__form {
+.calendar {
   display: grid;
-  gap: 1rem;
-  margin-top: 4rem;
-  justify-items: center;
-  margin-left: -1rem;
+  padding: 1rem;
 }
-.contact__form img {
-  position: relative;
-  left: 41px;
-  width: 14px;
-  height: 14px;
+.calendar__inner {
+  margin-top: 2rem;
 }
-
-.contact__form__message__img {
-  position: relative;
-  left: 41px;
-  top: -9rem;
-  width: 14px;
-  height: 14px;
+.calendar__line {
+  width: 91%;
+  height: 2px;
+  background-color: #bead8e;
+  margin-top: 0.6rem;
 }
-
-.contact__form input,
-.contact__form textarea {
-  width: 335px;
-  height: 67px;
-  border: none;
+.calendar__input {
   background-color: #f8f8f8;
-}
-
-.contact__form__name .name::placeholder {
-  color: #777777;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
-  margin-left: 7rem;
-}
-
-.contact__form__phone .number::placeholder {
-  color: #777777;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
-  margin-left: 5rem;
-}
-
-.contact__form__email .email::placeholder {
-  color: #777777;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
-  margin-left: 5rem;
-}
-
-.contact__form__subject .subject::placeholder {
-  color: #777777;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
-  margin-left: 7.4rem;
-}
-
-.contact__form__message .message::placeholder {
-  color: #777777;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
-  position: relative;
-  top: 1rem;
-  left: -3rem;
-}
-
-.contact__form__message textarea {
-  width: 335px;
-  height: 175px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.form__btn {
-  align-items: center;
-  text-align: center;
-  display: grid;
-  width: 216px;
-  height: 60px;
-  background: #bdac8d;
-  cursor: pointer;
   border: none;
-  text-decoration: none;
+  color: #777777;
+  display: block;
+  margin: auto;
+  margin-top: 0.9rem;
+  width: 290px;
+  height: 60px;
+}
+.calendar__arrival__txt {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18.75px;
+  text-align: left;
+  color: white;
+  color: #222222;
+  margin-left: 3rem;
+}
+.calendar__departure__txt {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18.75px;
+  text-align: left;
+  color: white;
+  margin-top: 2rem;
+  color: #222222;
+  margin-left: 3rem;
+}
+.calendar__btn {
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  width: 250px;
+  height: 60px;
+  background-color: #bead8e;
   font-family: Archivo;
   font-size: 14px;
   font-weight: 700;
   line-height: 15.23px;
   letter-spacing: 2.7999999523px;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
   color: white;
-  margin-top: 2rem;
-  margin-left: 1.3rem;
+  align-items: center;
+  text-align: center;
+  display: grid;
+}
+
+.calendar__input::-webkit-calendar-picker-indicator {
+  position: absolute;
+  left: 19.5rem;
+}
+
+.calendar__input::-webkit-datetime-edit {
+  margin-left: 2rem;
+}
+
+.about__room {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding: 1rem;
+  width: 23rem;
+  color: #777777;
+}
+
+.features {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.features__line {
+  background: #f1f1f1;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 3rem;
+}
+.features h1 {
+  font-family: " Old Standard TT";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 0.6rem;
+}
+.features .features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 7fr);
+  column-gap: 1.1rem;
+  row-gap: 0.8rem;
+  margin-left: -0.2rem;
+}
+.features .features-grid .feature {
+  display: grid;
+  grid-template-columns: 1.8rem auto;
+}
+.features .features-grid .feature img {
+  width: 1rem;
+}
+.features .features-grid .feature p {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 17.58px;
+  text-align: left;
+  color: #777777;
+  width: 8.4rem;
+}
+
+.founder__image__person {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
   margin: auto;
-}/*# sourceMappingURL=contact-page.css.map */
+  display: block;
+  margin-top: 6rem;
+}
+.founder__image__check {
+  padding: 1rem;
+  background-color: #bdac8d;
+  border-radius: 50%;
+  position: relative;
+  top: -9.5rem;
+  right: -13.9rem;
+  border: 5px solid white;
+}
+
+.founder__text {
+  padding: 2rem;
+  margin-top: -3rem;
+}
+.founder__text__name {
+  font-family: "Old Standard TT";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.8999999762px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.founder__text__position {
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #777777;
+  text-align: center;
+  color: #bdac8d;
+  margin-bottom: 1rem;
+}
+.founder__text__description {
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #777777;
+  font-size: 16px;
+  text-align: center;
+  width: 21rem;
+}
+
+.cancellation {
+  padding: 1.5rem;
+}
+.cancellation__tittle {
+  font-family: "Old Standard TT";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.8999999762px;
+  text-align: left;
+}
+.cancellation__line {
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  height: 1px;
+  background-color: #f1f1f1;
+}
+.cancellation__text {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 16px;
+  text-align: left;
+  color: #777777;
+  width: 21rem;
+}
+
+.swiper__information {
+  padding: 1.5rem;
+}
+.swiper__information__tittle {
+  font-family: "Old Standard TT";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.8999999762px;
+}
+.swiper__information__line {
+  background: #f1f1f1;
+  width: 100%;
+  height: 1px;
+  margin: auto;
+  margin-top: 1.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.footer {
+  background-image: url(".././Resources/Background-footer.png");
+  width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .header__text {
+    padding-top: 9rem;
+    margin-left: 13.5rem;
+  }
+  .header__text__big {
+    width: 23rem;
+  }
+  .header__btn {
+    right: 9.5rem;
+    top: 24.2rem;
+    width: 13.938rem;
+  }
+}/*# sourceMappingURL=ultimate-room.css.map */

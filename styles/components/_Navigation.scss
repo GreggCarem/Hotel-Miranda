@@ -111,12 +111,6 @@
     justify-content: center;
   }
   .nav {
-    width: 90%;
-    position: absolute;
-    top: 2.4rem;
-    margin: auto;
-    height: 7.5rem;
-
     &__logo__img {
       width: 5rem;
       height: 5rem;
@@ -126,15 +120,15 @@
   .nav__menu__content__desktop {
     display: flex;
     list-style-type: none;
-    margin-top: -1.7rem;
-    margin-left: -15rem;
+    margin-top: -3.4rem;
+    margin-left: -2rem;
     align-items: flex-start;
     justify-content: center;
     align-content: stretch;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2rem;
-
+    display: scale-down;
     li {
       margin-left: 1.5rem;
 
@@ -156,10 +150,13 @@
 
   .nav__btns {
     margin-right: 2rem;
-    margin-top: -1.3rem;
-    img {
-      margin-left: 1rem;
-      padding: 0.2rem;
+    margin-top: -2.3rem;
+    &__user {
+      padding: 1rem;
+      border: 2px solid #8585854d;
+    }
+    &__search {
+      padding: 1rem;
       border: 2px solid #8585854d;
     }
   }
@@ -168,6 +165,7 @@
     display: block;
     width: 1.938rem;
     height: 2.75rem;
+    object-fit: contain;
   }
   .nav__logo__name__desktop {
     display: block;
@@ -175,15 +173,19 @@
     height: 3.5rem;
     margin-top: 0.3rem;
     margin-left: 1rem;
+    object-fit: contain;
   }
 
   //NavBar scroll Display
-  .nav__menu__content {
-    display: none;
-  }
+
   .nav {
+    width: 85%;
+    margin: auto;
+    height: 7.5rem;
+    position: fixed;
+    top: 2rem;
     z-index: 99;
-    transition: top 0.5s ease-in-out;
+    transition: top 0.3s ease-in-out;
   }
 
   .hidden {

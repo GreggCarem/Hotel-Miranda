@@ -1,35 +1,16 @@
-@mixin number {
-  font-family: "Old Standard TT";
-  font-size: 60px;
-  font-weight: 400;
-  line-height: 60px;
-  letter-spacing: -1.7999999523162842px;
-  text-align: left;
-  color: #222222;
-}
-@mixin description {
-  font-family: "Roboto";
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;
-  text-align: left;
-  color: #777777;
-  margin-left: 0.4rem;
-}
-
 // Import the components
-@import "./styles/components/Navigation";
-@import "./styles/components/Footer";
-@import "./styles/components/Header";
+@import ".././styles/components/Navigation";
+@import ".././styles/components/Footer";
+@import ".././styles/components/Header";
 // Style constants
-@import "./styles/constants/Colors";
-@import "./styles/constants/Text";
-@import "./styles/constants/Btns";
+@import ".././styles/constants/Colors";
+@import ".././styles/constants/Text";
+@import ".././styles/constants/Btns";
 
 //Import Sliders
 
-@import "./Sliders/Page-2/second-slider.css";
-@import "./Sliders/Page-2/fourth-slider.css";
+@import ".././Sliders/Page-2/second-slider.css";
+@import ".././Sliders/Page-2/fourth-slider.css";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -58,6 +39,7 @@
     line-height: 39.55px;
     padding: 1rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 32px;
     text-align: center;
   }
@@ -330,4 +312,9 @@
       }
     }
   }
+}
+
+.footer {
+  background-image: url(".././Resources/Background-footer.png");
+  width: 100%;
 }

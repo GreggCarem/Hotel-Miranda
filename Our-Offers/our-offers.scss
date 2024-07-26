@@ -1,15 +1,15 @@
 // Import the components
-@import "./styles/components/Navigation";
-@import "./styles/components/Footer";
-@import "./styles/components/Header";
+@import ".././styles/components/Navigation";
+@import ".././styles/components/Footer";
+@import ".././styles/components/Header";
 // Style constants
-@import "./styles/constants/Colors";
-@import "./styles/constants/Text";
-@import "./styles/constants/Btns";
+@import ".././styles/constants/Colors";
+@import ".././styles/constants/Text";
+@import ".././styles/constants/Btns";
 
 //Import Sliders
 
-@import "./Sliders/Page-5/slider.css";
+@import ".././Sliders/Page-5/slider.css";
 
 * {
   box-sizing: border-box;
@@ -168,7 +168,10 @@
 }
 .book__now__btn {
   @include book-now;
-  margin-left: 0rem;
+
+  margin: auto;
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
 
 //Swiper
@@ -194,5 +197,29 @@
     font-size: 40px;
     margin-top: 2rem;
     margin-bottom: -1rem;
+  }
+}
+.footer {
+  background-image: url(".././Resources/Background-footer.png");
+  width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+  // Header
+
+  .header {
+    &__text {
+      padding-top: 9rem;
+      margin-left: 13.5rem;
+
+      &__big {
+        width: 23rem;
+      }
+    }
+    &__btn {
+      right: 9.5rem;
+      top: 24.2rem;
+      width: 13.938rem;
+    }
   }
 }

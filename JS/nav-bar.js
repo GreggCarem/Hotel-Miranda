@@ -11,9 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
     } else if (scrollTop === 0) {
       navbar.classList.remove("hidden");
     } else {
-      console.log("Error Hiding Nav Bar");
     }
-    console.log(scrollTop);
+
     lastScrollTop = scrollTop;
   });
 
@@ -21,14 +20,13 @@ document.addEventListener("DOMContentLoaded", () => {
   let mouseTop = 0;
 
   document.addEventListener("mousemove", (e) => {
-    if (e.clientY < 100) {
+    if (e.clientY < 200) {
       navbar.classList.add("drop-down-nav");
       mouseTop = true;
       console.log(mouseTop);
-    } else if (!e.clientY < 100) {
+    } else if (!e.clientY < 200) {
       navbar.classList.remove("drop-down-nav");
       mouseTop = false;
-      console.log(mouseTop);
     } else {
       console.log("Display has chrashed ");
     }

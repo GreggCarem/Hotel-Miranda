@@ -22,13 +22,13 @@
 }
 
 .first-slider .swiper-button-prev::after {
-  left: 2rem;
+  left: -1.2rem;
   top: -10rem;
   background-color: aliceblue;
 }
 
 .first-slider .swiper-button-next::after {
-  right: 2.4rem;
+  right: -1.6rem;
   top: -10rem;
   background-color: #bdac8d;
 }

@@ -1,15 +1,15 @@
 // Import the components
-@import "./styles/components/Navigation";
-@import "./styles/components/Footer";
-@import "./styles/components/Header";
+@import ".././styles/components/Navigation";
+@import ".././styles/components/Footer";
+@import ".././styles/components/Header";
 // Style constants
-@import "./styles/constants/Colors";
-@import "./styles/constants/Text";
-@import "./styles/constants/Btns";
+@import ".././styles/constants/Colors";
+@import ".././styles/constants/Text";
+@import ".././styles/constants/Btns";
 
 //Import Sliders
 
-@import "./Sliders/Page-4/slider.css";
+@import ".././Sliders/Page-4/slider.css";
 
 * {
   box-sizing: border-box;
@@ -167,8 +167,9 @@
   .features-grid {
     display: grid;
     grid-template-columns: repeat(2, 7fr);
-    column-gap: 1.5rem;
+    column-gap: 1.1rem;
     row-gap: 0.8rem;
+    margin-left: -0.2rem;
 
     .feature {
       display: grid;
@@ -185,6 +186,7 @@
         line-height: 17.58px;
         text-align: left;
         color: $text-grey;
+        width: 8.4rem;
       }
     }
   }
@@ -203,11 +205,11 @@
   }
   &__check {
     padding: 1rem;
-    background-color: #222222;
+    background-color: $light-ochre-color;
     border-radius: 50%;
     position: relative;
     top: -9.5rem;
-    right: -14.9rem;
+    right: -13.9rem;
     border: 5px solid white;
   }
 }
@@ -277,5 +279,30 @@
     margin: auto;
     margin-top: 1.5rem;
     margin-bottom: -1.5rem;
+  }
+}
+
+.footer {
+  background-image: url(".././Resources/Background-footer.png");
+  width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+  //Header
+
+  .header {
+    &__text {
+      padding-top: 9rem;
+      margin-left: 13.5rem;
+
+      &__big {
+        width: 23rem;
+      }
+    }
+    &__btn {
+      right: 9.5rem;
+      top: 24.2rem;
+      width: 13.938rem;
+    }
   }
 }

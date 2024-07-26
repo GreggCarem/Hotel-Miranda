@@ -40,4 +40,18 @@
 }
 
 @media only screen and (min-width: 1000px) {
+  .header {
+    height: 22.063rem;
+
+    &__text {
+      padding-top: 11rem;
+      margin-left: 13.5rem;
+    }
+
+    &__btn {
+      width: 200px;
+      top: 24.2rem;
+      right: 9rem;
+    }
+  }
 }

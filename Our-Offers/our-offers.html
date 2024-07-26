@@ -37,46 +37,79 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- JS Imports -->
-    <script src="./JS/fifth-slider.js" defer></script>
-    <script src="./JS/header.js" defer></script>
+    <script src=".././JS/nav-bar.js" defer></script>
+    <script src=".././JS/fifth-slider.js" defer></script>
+    <script src=".././JS/header.js" defer></script>
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="nav">
-      <div class="nav__menu">
-        <a id="menu">
-          <img
-            class="nav__menu__img"
-            id="menu__img"
-            src="./Resources/Menu.png"
-            alt="Menu"
-          />
-        </a>
-        <ul id="menu__content" class="nav__menu__content">
-          <li><a href="./about-page.html">About Us</a></li>
-          <li><a href="./room-page.html">Rooms</a></li>
-          <li><a href="./our-offers.html">Offers</a></li>
-          <li><a href="./contact-page.html">Contact</a></li>
-        </ul>
-      </div>
+    <div class="black__square"></div>
+    <div class="center__nav">
+      <!-- Change ID in other Pages -->
+      <nav class="nav" id="nav-bar">
+        <div class="nav__menu">
+          <a id="menu">
+            <img
+              class="nav__menu__img"
+              id="menu__img"
+              src=".././Resources/Menu.png"
+              alt="Menu"
+            />
+          </a>
+          <ul id="menu__content" class="nav__menu__content">
+            <li><a href=".././About-Page/about-page.html">About Us</a></li>
+            <li><a href=".././Room-Page/room-page.html">Rooms</a></li>
+            <li><a href=".././Our-Offers/our-offers.html">Offers</a></li>
+            <li><a href=".././Contact-Page/contact-page.html">Contact</a></li>
+          </ul>
+        </div>
 
-      <div class="nav__logo">
-        <div class="nav__logo__img">
+        <div class="nav__logo">
+          <div class="nav__logo__img">
+            <img
+              class="nav__logo__img__detail__desktop"
+              src=".././Resources/Desktop/H-big.png"
+              alt="Logo Hotel Miranda"
+            />
+            <img
+              class="nav__logo__img__detail"
+              src=".././Resources/Logo-H.png"
+              alt="Logo Hotel Miranda"
+            />
+          </div>
+          <div class="nav__logo__name">
+            <img
+              class="nav__logo__name__desktop"
+              src=".././Resources/Desktop/Hotel-Miranda.png"
+              alt="Logo Name Desktop"
+            />
+            <img
+              class="nav__logo__name__mobile"
+              src=".././Resources/Logo-Name.png"
+              alt="Logo Name"
+            />
+          </div>
+        </div>
+        <ul class="nav__menu__content__desktop">
+          <li><a href=".././About-Page/about-page.html">About Us</a></li>
+          <li><a href=".././Room-Page/room-page.html">Rooms</a></li>
+          <li><a href=".././Our-Offers/our-offers.html">Offers</a></li>
+          <li><a href=".././Contact-Page/contact-page.html">Contact</a></li>
+        </ul>
+        <div class="nav__btns">
           <img
-            class="nav__logo__img__detail"
-            src="./Resources/Logo-H.png"
-            alt="Logo Hotel Miranda"
+            class="nav__btns__user"
+            src=".././Resources/User-Logo.png"
+            alt="User Logo"
+          />
+          <img
+            class="nav__btns__search"
+            src=".././Resources/Serch-Logo.png"
+            alt="Search Logo"
           />
         </div>
-        <div class="nav__logo__name">
-          <img src="./Resources/Logo-Name.png" alt="Logo Name" />
-        </div>
-      </div>
-      <div class="nav__btns">
-        <img src="./Resources/User-Logo.png" alt="User Logo" />
-        <img src="./Resources/Serch-Logo.png" alt="Search Logo" />
-      </div>
-    </nav>
+      </nav>
+    </div>
     <!--Our offers -->
     <header class="header">
       <div class="header__text">
@@ -84,7 +117,7 @@
         <h1 class="header__text__big">Our Offers</h1>
       </div>
       <div class="header__btn">
-        <a href="./index.html" class="header__btn__home">Home</a>
+        <a href=".././index.html" class="header__btn__home">Home</a>
         <h3>|</h3>
         <a href="./our-offers.html" class="header__btn__about">Offers</a>
       </div>
@@ -96,7 +129,7 @@
         <div class="room__img">
           <img
             class="room__img__photo"
-            src="./Resources/page-5/Rooms/1.webp"
+            src=".././Resources/page-5/Rooms/1.webp"
             alt="Hotel Room "
           />
           <div class="room__price">
@@ -122,43 +155,46 @@
           <div class="features">
             <div class="features__grid">
               <div class="feature">
-                <img src="./Resources/page-5/AC.png" alt="Air conditioner" />
+                <img src=".././Resources/page-5/AC.png" alt="Air conditioner" />
                 <p>Air conditioner</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/wifi.png" alt="High speed WiFi" />
+                <img
+                  src=".././Resources/page-5/wifi.png"
+                  alt="High speed WiFi"
+                />
                 <p>High speed WiFi</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/plate.png" alt="Breakfast" />
+                <img src=".././Resources/page-5/plate.png" alt="Breakfast" />
                 <p>Breakfast</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/kitchen.png" alt="Kitchen" />
+                <img src=".././Resources/page-5/kitchen.png" alt="Kitchen" />
                 <p>Kitchen</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/cleaning.png" alt="Cleaning" />
+                <img src=".././Resources/page-5/cleaning.png" alt="Cleaning" />
                 <p>Cleaning</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/shower.png" alt="Shower" />
+                <img src=".././Resources/page-5/shower.png" alt="Shower" />
                 <p>Shower</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/grocery.png" alt="Grocery" />
+                <img src=".././Resources/page-5/grocery.png" alt="Grocery" />
                 <p>Grocery</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/bed.png" alt="Single bed" />
+                <img src=".././Resources/page-5/bed.png" alt="Single bed" />
                 <p>Single bed</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/shop.png" alt="Shop near" />
+                <img src=".././Resources/page-5/shop.png" alt="Shop near" />
                 <p>Shop near</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/towel.png" alt="Towels" />
+                <img src=".././Resources/page-5/towel.png" alt="Towels" />
                 <p>Towels</p>
               </div>
             </div>
@@ -170,7 +206,7 @@
         <div class="room__img">
           <img
             class="room__img__photo"
-            src="./Resources/page-5/Rooms/1.webp"
+            src=".././Resources/page-5/Rooms/1.webp"
             alt="Hotel Room "
           />
           <div class="room__price">
@@ -196,43 +232,46 @@
           <div class="features">
             <div class="features__grid">
               <div class="feature">
-                <img src="./Resources/page-5/AC.png" alt="Air conditioner" />
+                <img src=".././Resources/page-5/AC.png" alt="Air conditioner" />
                 <p>Air conditioner</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/wifi.png" alt="High speed WiFi" />
+                <img
+                  src=".././Resources/page-5/wifi.png"
+                  alt="High speed WiFi"
+                />
                 <p>High speed WiFi</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/plate.png" alt="Breakfast" />
+                <img src=".././Resources/page-5/plate.png" alt="Breakfast" />
                 <p>Breakfast</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/kitchen.png" alt="Kitchen" />
+                <img src=".././Resources/page-5/kitchen.png" alt="Kitchen" />
                 <p>Kitchen</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/cleaning.png" alt="Cleaning" />
+                <img src=".././Resources/page-5/cleaning.png" alt="Cleaning" />
                 <p>Cleaning</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/shower.png" alt="Shower" />
+                <img src=".././Resources/page-5/shower.png" alt="Shower" />
                 <p>Shower</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/grocery.png" alt="Grocery" />
+                <img src=".././Resources/page-5/grocery.png" alt="Grocery" />
                 <p>Grocery</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/bed.png" alt="Single bed" />
+                <img src=".././Resources/page-5/bed.png" alt="Single bed" />
                 <p>Single bed</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/shop.png" alt="Shop near" />
+                <img src=".././Resources/page-5/shop.png" alt="Shop near" />
                 <p>Shop near</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/towel.png" alt="Towels" />
+                <img src=".././Resources/page-5/towel.png" alt="Towels" />
                 <p>Towels</p>
               </div>
             </div>
@@ -244,7 +283,7 @@
         <div class="room__img">
           <img
             class="room__img__photo"
-            src="./Resources/page-5/Rooms/1.webp"
+            src=".././Resources/page-5/Rooms/1.webp"
             alt="Hotel Room "
           />
           <div class="room__price">
@@ -270,43 +309,46 @@
           <div class="features">
             <div class="features__grid">
               <div class="feature">
-                <img src="./Resources/page-5/AC.png" alt="Air conditioner" />
+                <img src=".././Resources/page-5/AC.png" alt="Air conditioner" />
                 <p>Air conditioner</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/wifi.png" alt="High speed WiFi" />
+                <img
+                  src=".././Resources/page-5/wifi.png"
+                  alt="High speed WiFi"
+                />
                 <p>High speed WiFi</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/plate.png" alt="Breakfast" />
+                <img src=".././Resources/page-5/plate.png" alt="Breakfast" />
                 <p>Breakfast</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/kitchen.png" alt="Kitchen" />
+                <img src=".././Resources/page-5/kitchen.png" alt="Kitchen" />
                 <p>Kitchen</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/cleaning.png" alt="Cleaning" />
+                <img src=".././Resources/page-5/cleaning.png" alt="Cleaning" />
                 <p>Cleaning</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/shower.png" alt="Shower" />
+                <img src=".././Resources/page-5/shower.png" alt="Shower" />
                 <p>Shower</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/grocery.png" alt="Grocery" />
+                <img src=".././Resources/page-5/grocery.png" alt="Grocery" />
                 <p>Grocery</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/bed.png" alt="Single bed" />
+                <img src=".././Resources/page-5/bed.png" alt="Single bed" />
                 <p>Single bed</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/shop.png" alt="Shop near" />
+                <img src=".././Resources/page-5/shop.png" alt="Shop near" />
                 <p>Shop near</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/towel.png" alt="Towels" />
+                <img src=".././Resources/page-5/towel.png" alt="Towels" />
                 <p>Towels</p>
               </div>
             </div>
@@ -319,7 +361,7 @@
         <div class="room__img">
           <img
             class="room__img__photo"
-            src="./Resources/page-5/Rooms/1.webp"
+            src=".././Resources/page-5/Rooms/1.webp"
             alt="Hotel Room "
           />
           <div class="room__price">
@@ -345,43 +387,46 @@
           <div class="features">
             <div class="features__grid">
               <div class="feature">
-                <img src="./Resources/page-5/AC.png" alt="Air conditioner" />
+                <img src=".././Resources/page-5/AC.png" alt="Air conditioner" />
                 <p>Air conditioner</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/wifi.png" alt="High speed WiFi" />
+                <img
+                  src=".././Resources/page-5/wifi.png"
+                  alt="High speed WiFi"
+                />
                 <p>High speed WiFi</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/plate.png" alt="Breakfast" />
+                <img src=".././Resources/page-5/plate.png" alt="Breakfast" />
                 <p>Breakfast</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/kitchen.png" alt="Kitchen" />
+                <img src=".././Resources/page-5/kitchen.png" alt="Kitchen" />
                 <p>Kitchen</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/cleaning.png" alt="Cleaning" />
+                <img src=".././Resources/page-5/cleaning.png" alt="Cleaning" />
                 <p>Cleaning</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/shower.png" alt="Shower" />
+                <img src=".././Resources/page-5/shower.png" alt="Shower" />
                 <p>Shower</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/grocery.png" alt="Grocery" />
+                <img src=".././Resources/page-5/grocery.png" alt="Grocery" />
                 <p>Grocery</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/bed.png" alt="Single bed" />
+                <img src=".././Resources/page-5/bed.png" alt="Single bed" />
                 <p>Single bed</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/shop.png" alt="Shop near" />
+                <img src=".././Resources/page-5/shop.png" alt="Shop near" />
                 <p>Shop near</p>
               </div>
               <div class="feature">
-                <img src="./Resources/page-5/towel.png" alt="Towels" />
+                <img src=".././Resources/page-5/towel.png" alt="Towels" />
                 <p>Towels</p>
               </div>
             </div>
@@ -401,12 +446,12 @@
             <div class="swiper-slide">
               <img
                 class="swiper-slide-rules"
-                src="./Resources/Room-rules.png"
+                src=".././Resources/Room-rules.png"
                 alt="Room Rules"
               />
               <img
                 class="swiper-slide-img"
-                src="./Resources/Slider-Rooms/Room-1.webp"
+                src=".././Resources/Slider-Rooms/Room-1.webp"
                 alt="Rooms"
               />
               <div class="swiper-slide-text">
@@ -426,12 +471,12 @@
             <div class="swiper-slide">
               <img
                 class="swiper-slide-rules"
-                src="./Resources/Room-rules.png"
+                src=".././Resources/Room-rules.png"
                 alt="Room Rules"
               />
               <img
                 class="swiper-slide-img"
-                src="./Resources/Slider-Rooms/Room-2.jpeg"
+                src=".././Resources/Slider-Rooms/Room-2.jpeg"
                 alt="Rooms"
               />
               <div class="swiper-slide-text">
@@ -450,12 +495,12 @@
             <div class="swiper-slide">
               <img
                 class="swiper-slide-rules"
-                src="./Resources/Room-rules.png"
+                src=".././Resources/Room-rules.png"
                 alt="Room Rules"
               />
               <img
                 class="swiper-slide-img"
-                src="./Resources/Slider-Rooms/Room-3.jpeg"
+                src=".././Resources/Slider-Rooms/Room-3.jpeg"
                 alt="Rooms"
               />
               <div class="swiper-slide-text">
@@ -474,12 +519,12 @@
             <div class="swiper-slide">
               <img
                 class="swiper-slide-rules"
-                src="./Resources/Room-rules.png"
+                src=".././Resources/Room-rules.png"
                 alt="Room Rules"
               />
               <img
                 class="swiper-slide-img"
-                src="./Resources/Slider-Rooms/Room-4.jpeg"
+                src=".././Resources/Slider-Rooms/Room-4.jpeg"
                 alt="Rooms"
               />
               <div class="swiper-slide-text">
@@ -498,12 +543,12 @@
             <div class="swiper-slide">
               <img
                 class="swiper-slide-rules"
-                src="./Resources/Room-rules.png"
+                src=".././Resources/Room-rules.png"
                 alt="Room Rules"
               />
               <img
                 class="swiper-slide-img"
-                src="./Resources/Slider-Rooms/Room-5.webp"
+                src=".././Resources/Slider-Rooms/Room-5.webp"
                 alt="Rooms"
               />
               <div class="swiper-slide-text">
@@ -522,12 +567,12 @@
             <div class="swiper-slide">
               <img
                 class="swiper-slide-rules"
-                src="./Resources/Room-rules.png"
+                src=".././Resources/Room-rules.png"
                 alt="Room Rules"
               />
               <img
                 class="swiper-slide-img"
-                src="./Resources/Slider-Rooms/Room-6.jpeg"
+                src=".././Resources/Slider-Rooms/Room-6.jpeg"
                 alt="Rooms"
               />
               <div class="swiper-slide-text">
@@ -556,12 +601,12 @@
         <div class="footer__logos">
           <img
             class="footer__logos__img"
-            src="./Resources/Logo-Bigger.png"
+            src=".././Resources/Logo-Bigger.png"
             alt="Logo "
           />
           <img
             class="footer__logos__name"
-            src="./Resources/Logo-Bigger-Name.png"
+            src=".././Resources/Logo-Bigger-Name.png"
             alt="Logo Name"
           />
         </div>
@@ -575,32 +620,32 @@
           <a href="">
             <img
               class="footer__social__media__facebook"
-              src="./Resources/Social-Media/Facebook.png"
+              src=".././Resources/Social-Media/Facebook.png"
               alt="Facebook"
             />
           </a>
           <a href="">
             <img
               class="footer__social__media__twitter"
-              src="./Resources/Social-Media/twitter.png"
+              src=".././Resources/Social-Media/twitter.png"
               alt="Twitter"
           /></a>
           <a href="">
             <img
               class="footer__social__media__be"
-              src="./Resources/Social-Media/Be.png"
+              src=".././Resources/Social-Media/Be.png"
               alt="Be"
           /></a>
           <a href=""
             ><img
               class="footer__social__media__linkedin"
-              src="./Resources/Social-Media/Linkedin.png"
+              src=".././Resources/Social-Media/Linkedin.png"
               alt="Linkedin"
           /></a>
           <a href="">
             <img
               class="footer__social__media__youtube"
-              src="./Resources/Social-Media/Youtube.png"
+              src=".././Resources/Social-Media/Youtube.png"
               alt="Youtube"
           /></a>
         </div>
@@ -631,7 +676,7 @@
         <div class="footer__contact__us__phone">
           <img
             class="footer__contact__us__phone__img"
-            src="./Resources/Phone.png"
+            src=".././Resources/Phone.png"
             alt="Phone"
           />
           <div class="footer__contact__us__phone__text">
@@ -643,7 +688,7 @@
         <div class="footer__contact__us__email">
           <img
             class="footer__contact__us__email__img"
-            src="./Resources/email.png"
+            src=".././Resources/email.png"
             alt="Email"
           />
           <div class="footer__contact__us__email__text">
@@ -657,7 +702,7 @@
         <div class="footer__contact__us__location">
           <img
             class="footer__contact__us__location__img"
-            src="./Resources/Location.png"
+            src=".././Resources/Location.png"
             alt="Location"
           />
           <div class="footer__contact__us__location__text">
