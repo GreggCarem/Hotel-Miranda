@@ -9,8 +9,17 @@ document.addEventListener("DOMContentLoaded", function () {
       el: ".swiper-pagination",
       type: "bullets",
       clickable: true,
-      renderBullet: function (index, className) {
-        return '<span class="' + className + '">' + (index + 1) + "</span>";
+      renderBullet: function (index, number) {
+        const totalSlides = this.slides.length;
+        const lastIndex = totalSlides - 1;
+
+        if (index < 3 || index === lastIndex) {
+          return `<span class="${number}">${index + 1}</span>`;
+        } else if (index === 3) {
+          return `<span class="${number}">...</span>`;
+        } else {
+          return "";
+        }
       },
     },
   });

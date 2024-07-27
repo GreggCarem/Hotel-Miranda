@@ -164,7 +164,7 @@
     margin-bottom: 0.6rem;
   }
 
-  .features-grid {
+  .features__grid {
     display: grid;
     grid-template-columns: repeat(2, 7fr);
     column-gap: 1.1rem;
@@ -303,6 +303,147 @@
       right: 9.5rem;
       top: 24.2rem;
       width: 13.938rem;
+    }
+  }
+
+  .luxury {
+    &__flex {
+      padding: 5rem;
+
+      display: flex;
+    }
+    &__double {
+      &__bed {
+        padding: 1rem;
+        width: 48.125rem;
+
+        &__img {
+          height: 30.625rem;
+        }
+      }
+    }
+  }
+  .calendar__inner {
+    margin-top: 3rem;
+    width: 23.125rem;
+  }
+
+  .calendar__input::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 57rem;
+  }
+  .calendar__input::-webkit-datetime-edit {
+    margin-left: 2rem;
+  }
+
+  .about__room {
+    margin-top: -3rem;
+    margin-left: 5rem;
+    width: 44.063rem;
+    color: #777777;
+  }
+
+  .features {
+    margin-top: 3rem;
+    margin-left: 6.5rem;
+
+    &__line {
+      width: 95%;
+    }
+    .features__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 7fr);
+    }
+  }
+
+  .founder__desktop {
+    width: 23.125rem;
+    height: 30.5rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 14px 24px 0px rgba(190, 173, 142, 0.2705882353);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .founder {
+    &__image {
+      &__person {
+        margin-top: -3rem;
+      }
+      &__check {
+        padding: 1rem;
+        background-color: $light-ochre-color;
+        border-radius: 50%;
+        position: relative;
+        top: -9.5rem;
+        right: -13.9rem;
+        border: 5px solid white;
+      }
+    }
+    &__text__description {
+      margin-bottom: 3rem;
+    }
+  }
+
+  .cancellation {
+    padding: 6.5rem;
+
+    &__text {
+      width: 39.5rem;
+    }
+
+    &__line {
+      width: 74%;
+    }
+  }
+
+  //Swiper
+
+  .swiper-slide {
+    margin-right: 10rem;
+    width: 24.25rem;
+    margin-right: 5rem;
+  }
+  .first-slider .swiper-slide-rules {
+    width: 19.375rem;
+    height: 3.1rem;
+    object-fit: cover;
+
+    margin-left: 1.8rem;
+  }
+
+  .first-slider .swiper-slide-img {
+    width: 23.125rem;
+    height: 15rem;
+  }
+
+  .swiper-slide .swiper-slide-active {
+    margin-right: 1000rem;
+    width: 50rem;
+  }
+
+  .first-slider .swiper-slide-text-title {
+    width: 22rem;
+  }
+  .first-slider .swiper-slide-text-body {
+    margin-left: 1rem;
+  }
+
+  .first-slider .swiper-wrapper {
+    display: flex;
+    gap: 7rem;
+  }
+  .first-slider .swiper-slide-text-price {
+    width: 22rem;
+  }
+  .swiper__information {
+    margin-left: 5rem;
+    &__line {
+      width: 61%;
+      margin: 0;
+      margin-top: 1.5rem;
     }
   }
 }
