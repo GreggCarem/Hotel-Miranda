@@ -293,4 +293,87 @@
       width: 12.5rem;
     }
   }
+
+  .information {
+    display: flex;
+
+    justify-content: space-evenly;
+
+    margin: auto;
+    margin-left: -5rem;
+
+    &__2 {
+      max-width: 25.406rem;
+      margin: 0;
+      margin-top: 5rem;
+    }
+    &__3 {
+      max-width: 25.406rem;
+      margin: 0;
+      margin-top: 5rem;
+    }
+  }
+
+  .image__room {
+    margin-top: -7rem;
+    width: 73.125rem;
+    height: 43.75rem;
+  }
+
+  .contact__form {
+    display: flex;
+    gap: 1rem;
+    justify-items: center;
+    margin: auto;
+    margin-top: 4rem;
+    max-width: 62rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__name input,
+    &__name textarea {
+      width: 29.375rem;
+    }
+    &__phone input,
+    &__phone textarea {
+      width: 29.375rem;
+    }
+    &__email input,
+    &__email textarea {
+      width: 29.375rem;
+    }
+    &__subject input,
+    &__subject textarea {
+      width: 29.375rem;
+    }
+    &__message input,
+    &__message textarea {
+      width: 60.625rem;
+    }
+  }
+
+  .contact__form__message .message::placeholder {
+    position: relative;
+    top: 1rem;
+    left: -23rem;
+  }
+  .contact__form__name .name::placeholder {
+    margin-left: 16rem;
+  }
+
+  .contact__form__phone .number::placeholder {
+    margin-left: 13.5rem;
+  }
+
+  .contact__form__email .email::placeholder {
+    margin-left: 14rem;
+  }
+
+  .contact__form__subject .subject::placeholder {
+    margin-left: 16rem;
+  }
+
+  .form__btn {
+    width: 16.125rem;
+  }
 }
