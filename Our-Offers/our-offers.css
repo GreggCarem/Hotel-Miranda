@@ -845,7 +845,7 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .header__text {
-    padding-top: 9rem;
+    padding-top: 7rem;
     margin-left: 13.5rem;
   }
   .header__text__big {
@@ -854,6 +854,6 @@ body {
   .header__btn {
     right: 9.5rem;
     top: 24.2rem;
-    width: 13.938rem;
+    width: 12.5rem;
   }
 }/*# sourceMappingURL=our-offers.css.map */

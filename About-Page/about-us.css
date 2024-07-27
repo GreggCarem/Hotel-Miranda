@@ -1023,4 +1023,22 @@ body {
 .footer {
   background-image: url(".././Resources/Background-footer.png");
   width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .header {
+    height: 22.063rem;
+  }
+  .header__text {
+    padding-top: 7rem;
+    margin-left: 13.5rem;
+  }
+  .header__text__big {
+    width: 23rem;
+  }
+  .header__btn {
+    right: 9.5rem;
+    top: 24.2rem;
+    width: 12.5rem;
+  }
 }/*# sourceMappingURL=about-us.css.map */
