@@ -856,4 +856,73 @@ body {
     top: 24.2rem;
     width: 12.5rem;
   }
+  .room__price__discount {
+    left: -15rem;
+  }
+  .room__price__cancelled {
+    left: -17rem;
+  }
+  .room__price__cancelled__small {
+    right: -19.8rem;
+  }
+  .room__1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .room__img__photo {
+    width: 73.125rem;
+    height: 35.625rem;
+    object-fit: none;
+  }
+  .room__information {
+    display: flex;
+    width: 53.625rem;
+    background-color: white;
+    margin-left: -1.5rem;
+    margin-top: -11rem;
+    padding: 3rem;
+    border-top: 0.3rem solid #bdac8d;
+  }
+  .room__information__subtittle {
+    width: 5rem;
+  }
+  .room__information__tittle {
+    margin-bottom: 1.5rem;
+    margin-left: -5rem;
+    margin-top: 2rem;
+    width: 22rem;
+  }
+  .room__information__body {
+    width: 27rem;
+  }
+  .room__information__body__flex {
+    display: flex;
+    margin: auto;
+    margin-top: 7rem;
+    margin-left: -22rem;
+    border-top: 0.2rem solid #ececec;
+    padding-top: 2rem;
+  }
+  .features {
+    margin-top: 0rem;
+    margin-left: 2rem;
+  }
+  .book__now__btn {
+    margin-top: -3rem;
+    margin-right: 38.5rem;
+  }
+  .line__rooms__desktop {
+    width: 46rem;
+    height: 0.5rem;
+    background: #ececec;
+    position: absolute;
+    top: 67rem;
+  }
+  .first-slider .swiper-slide-text {
+    width: 20.938rem;
+  }
+  .first-slider .swiper-slide {
+    width: fit-content;
+  }
 }/*# sourceMappingURL=our-offers.css.map */

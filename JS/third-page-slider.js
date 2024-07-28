@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
       el: ".swiper-pagination",
       type: "bullets",
       clickable: true,
+
       renderBullet: function (index, number) {
         const totalSlides = this.slides.length;
         const lastIndex = totalSlides - 1;

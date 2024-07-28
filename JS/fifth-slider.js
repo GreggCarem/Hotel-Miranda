@@ -6,31 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-  });
-
-  // Second Slider
-  var swiper2 = new Swiper(".Swiper2", {
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-
-  // Third Slider
-  var swiper3 = new Swiper(".Swiper3", {
-    loop: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-  // Fourth Slider
-  var swiper4 = new Swiper(".Swiper4", {
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+    breakpoints: {
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
     },
   });
 });
