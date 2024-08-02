@@ -123,3 +123,11 @@
   width: 16px;
   height: 16px;
 }
+
+@media only screen and (min-width: 1000px) {
+  .first-slider {
+    width: 75%;
+    height: fit-content;
+    position: relative;
+  }
+}
