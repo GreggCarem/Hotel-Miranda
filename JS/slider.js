@@ -1,10 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // First Slider
   var swiper1 = new Swiper(".first-slider", {
     loop: true,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
+    },
+    slidesPerView: 1,
+    spaceBetween: 100,
+    breakpoints: {
+      1000: {
+        slidesPerView: 1.5,
+        centeredSlides: true,
+        spaceBetween: 100,
+      },
     },
   });
 
@@ -15,6 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
       el: ".swiper-pagination",
       clickable: true,
     },
+    slidesPerView: 1,
+    breakpoints: {
+      1000: {
+        slidesPerView: 6,
+
+        spaceBetween: 50,
+      },
+    },
   });
 
   // Third Slider
@@ -24,6 +40,14 @@ document.addEventListener("DOMContentLoaded", function () {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    slidesPerView: 1,
+    breakpoints: {
+      1000: {
+        slidesPerView: 2,
+
+        spaceBetween: 10,
+      },
+    },
   });
   // Fourth Slider
   var swiper4 = new Swiper(".Swiper4", {
@@ -31,6 +55,14 @@ document.addEventListener("DOMContentLoaded", function () {
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
+    },
+    slidesPerView: 1,
+    breakpoints: {
+      1000: {
+        slidesPerView: 3,
+
+        spaceBetween: 10,
+      },
     },
   });
 });

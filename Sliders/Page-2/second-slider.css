@@ -80,3 +80,46 @@
   color: #777777;
   width: 15.625rem;
 }
+
+@media only screen and (min-width: 1000px) {
+  .Swiper2 .swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    max-width: 70rem;
+    margin: auto;
+  }
+
+  .Swiper2 .swiper-slide {
+    width: 320px;
+    margin: 10px;
+
+    background: #292929;
+    color: #222222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+    height: 320px;
+  }
+
+  .Swiper2 {
+    width: 100%;
+    height: 49.125rem;
+    background-color: transparent;
+    position: relative;
+    padding-bottom: 2rem;
+  }
+  .swiper-slide .swiper-slide-next {
+    width: 370px;
+    height: 370px;
+  }
+  .Swiper2 .swiper-pagination {
+    display: none;
+  }
+
+  .Swiper2 .swiper-slide-title {
+    color: white;
+  }
+}

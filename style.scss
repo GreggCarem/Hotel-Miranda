@@ -54,6 +54,7 @@
 }
 
 // Calendar
+
 .calendar {
   background-color: $calendar;
   display: grid;
@@ -319,6 +320,10 @@
     position: absolute;
     margin-bottom: 13rem;
     margin-top: -7rem;
+
+    &__full {
+      display: none;
+    }
   }
   &__subtittle {
     @include small-letters;
@@ -428,5 +433,256 @@
 @media only screen and (min-width: 1000px) {
   .header {
     padding-top: 5rem;
+    padding-left: 3rem;
+
+    &__text {
+      margin-left: 14.5rem;
+
+      &__small {
+        width: auto;
+      }
+
+      &__big {
+        width: 43rem;
+        font-size: 120px;
+        font-weight: 400;
+        line-height: 130px;
+        letter-spacing: -3.5999999046325684px;
+        text-align: left;
+      }
+    }
+
+    &__btn {
+      margin-left: 15rem;
+      display: flex;
+
+      &__tour {
+        margin-right: 3rem;
+      }
+    }
+  }
+
+  .calendar {
+    &__inner {
+      display: flex;
+      margin: auto;
+      margin-top: 2rem;
+      align-items: flex-end;
+      margin-bottom: 3rem;
+      gap: 3rem;
+    }
+    &__line {
+      width: 330px;
+      height: 2px;
+      background-color: $ochre-color;
+      margin-top: 0.6rem;
+    }
+    &__input {
+      background-color: transparent;
+      border: none;
+      color: $ochre-color;
+      margin-left: 2rem;
+      margin-top: 0.9rem;
+    }
+
+    &__arrival__txt {
+      @include calendar-txt;
+    }
+    &__departure__txt {
+      @include calendar-txt;
+      margin-top: 2rem;
+    }
+    &__btn {
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+      @include btn-check-availability;
+      @include btn-text;
+      width: 15.625rem;
+    }
+  }
+
+  .calendar__input::-webkit-calendar-picker-indicator {
+    color: $ochre-color;
+    background-color: $ochre-color;
+    position: absolute;
+
+    left: 2rem;
+  }
+
+  .general__info {
+    background-color: #222222;
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 7rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .Discover {
+    display: flex;
+    flex-direction: row-reverse;
+
+    align-content: space-between;
+
+    &__inner {
+      display: flex;
+      flex-direction: row;
+      margin-top: 8rem;
+      position: relative;
+      right: -11rem;
+    }
+  }
+
+  .strong__team {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 0.8rem;
+  }
+
+  .about__us {
+    background-color: transparent;
+    margin-top: 8rem;
+    padding-left: 3rem;
+
+    &__title {
+      width: 19rem;
+    }
+
+    &__text {
+      width: 25rem;
+      margin-left: 1.8rem;
+    }
+    &__subtitle {
+      margin-left: 10.9rem;
+    }
+
+    &__body {
+      background-color: #f9f9f9;
+      margin-top: 3rem;
+      padding-bottom: 20rem;
+      padding-left: 9rem;
+    }
+  }
+  .book__now {
+    margin-left: 1.8rem;
+  }
+
+  .luxury__rooms__img {
+    width: 270px;
+    height: 300px;
+    position: relative;
+    top: -3rem;
+  }
+  .luxury__rooms__box {
+    top: -12rem;
+  }
+
+  .strong__team__box {
+    box-shadow: 0px 8px 16px 0px rgba(34, 34, 34, 0.0196078431);
+    width: 270px;
+    height: 300px;
+    top: -2rem;
+    position: relative;
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
+  }
+  .strong__team__room__img {
+    width: 270px;
+    height: 300px;
+    position: relative;
+    top: -12rem;
+  }
+
+  .first-slider .swiper-slide {
+    position: relative;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+
+  .first-slider .swiper-slide-active {
+    opacity: 1;
+    width: 100%;
+    height: 20rem;
+  }
+
+  .intro__video {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-bottom: 9rem;
+    background: linear-gradient(to right, #222222 75%, #ad9d82 25%);
+
+    &__1 {
+      padding-right: 4rem;
+    }
+    &__tittle {
+      width: 33rem;
+      margin-bottom: 1rem;
+      font-size: 80px;
+      font-weight: 400;
+      line-height: 85px;
+      letter-spacing: -2.4000000953674316px;
+      text-align: left;
+    }
+    &__body {
+      width: 30rem;
+    }
+
+    &__video {
+      display: grid;
+      justify-items: center;
+      margin: auto;
+
+      width: 80%;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+    }
+    &__2 {
+      width: 570px;
+      height: 460px;
+      margin-top: 5rem;
+    }
+    &__btn {
+      position: relative;
+      margin-top: 3rem;
+      left: -38.5rem;
+      top: -11rem;
+    }
+  }
+  .food__menu {
+    width: 67%;
+    margin: auto;
+
+    &__tittle {
+      width: 28rem;
+    }
+    &__img {
+      display: none;
+
+      &__full {
+        position: relative;
+        top: 11rem;
+        left: -12rem;
+        display: block;
+      }
+    }
+  }
+  .slider4 {
+    width: 83%;
+    margin: auto;
+  }
+  .calendar__input::-webkit-calendar-picker-indicator {
+    color: $ochre-color;
+    background-color: $ochre-color;
+    position: absolute;
+
+    display: none;
   }
 }

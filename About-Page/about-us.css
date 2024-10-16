@@ -677,6 +677,10 @@ body {
   display: flex;
   gap: 1rem;
 }
+.box .box__first__row .box__5,
+.box .box__second__row .box__5 {
+  display: none;
+}
 .box .box__first__row .box__1,
 .box .box__first__row .box__2,
 .box .box__first__row .box__3,
@@ -745,7 +749,7 @@ body {
   letter-spacing: 2.7999999523px;
   text-align: left;
   color: #777777;
-  width: 5rem;
+  font-size: 12px;
 }
 
 .restaurant {
@@ -813,7 +817,7 @@ body {
   color: white;
   margin-top: 2rem;
   margin-left: 1.3rem;
-  margin-left: -4.8rem;
+  margin-left: 2.3rem;
   margin-top: -1rem;
 }
 
@@ -1040,5 +1044,191 @@ body {
     right: 9.5rem;
     top: 24.2rem;
     width: 12.5rem;
+  }
+  .video {
+    margin-top: 5rem;
+  }
+  .video__intro {
+    width: 80%;
+    height: 40.625rem;
+    margin: auto;
+  }
+  .video__text {
+    line-height: 88.99px;
+    letter-spacing: -2.1600000858px;
+    text-align: center;
+    font-size: 4.5rem;
+    max-width: 68rem;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .box {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .box .box__first__row,
+  .box .box__second__row {
+    display: flex;
+    gap: 5rem;
+  }
+  .restaurant {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+    box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1019607843);
+  }
+  .restaurant__body {
+    width: 35rem;
+  }
+  .restaurant__img {
+    width: 33.125rem;
+    height: 26.25rem;
+  }
+  .restaurant__subtitte {
+    margin-left: 2.3rem;
+  }
+  .restaurant__tittle {
+    font-size: 48px;
+    width: 31rem;
+  }
+  .restaurant__btn {
+    margin-left: 2.2rem;
+  }
+  .box {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  .box .box__first__row,
+  .box .box__second__row {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .box .box__first__row .box__5,
+  .box .box__second__row .box__5 {
+    display: block;
+  }
+  .box .box__first__row .box__1,
+  .box .box__first__row .box__2,
+  .box .box__first__row .box__3,
+  .box .box__first__row .box__5,
+  .box .box__first__row .box__4,
+  .box .box__second__row .box__1,
+  .box .box__second__row .box__2,
+  .box .box__second__row .box__3,
+  .box .box__second__row .box__5,
+  .box .box__second__row .box__4 {
+    width: 12.5rem;
+    height: 12.5rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+  .box .box__first__row .box__1 img,
+  .box .box__first__row .box__3 img,
+  .box .box__first__row .box__5 img,
+  .box .box__first__row .box__4 img,
+  .box .box__second__row .box__1 img,
+  .box .box__second__row .box__3 img,
+  .box .box__second__row .box__5 img,
+  .box .box__second__row .box__4 img {
+    display: block;
+    margin: 0 auto;
+  }
+  .box .box__first__row .box__1 h1,
+  .box .box__first__row .box__3 h1,
+  .box .box__first__row .box__5 h1,
+  .box .box__first__row .box__4 h1,
+  .box .box__second__row .box__1 h1,
+  .box .box__second__row .box__3 h1,
+  .box .box__second__row .box__5 h1,
+  .box .box__second__row .box__4 h1 {
+    margin-top: -4.5rem;
+    font-family: "Archivo";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 2.7999999523px;
+    text-align: left;
+    color: #777777;
+  }
+  .box .box__first__row .box__2,
+  .box .box__second__row .box__2 {
+    width: 9.813rem;
+    height: 9.813rem;
+  }
+  .box .box__first__row .box__2 h1,
+  .box .box__second__row .box__2 h1 {
+    margin-top: 0.5rem;
+    font-family: "Archivo";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 2.7999999523px;
+    text-align: left;
+    color: #777777;
+    text-align: center;
+  }
+  .restaurant {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1019607843);
+  }
+  .restaurant__tittle {
+    width: auto;
+    max-width: 31rem;
+  }
+  .restaurant__body {
+    width: auto;
+    max-width: 35rem;
+  }
+  .fun__facts {
+    text-align: -webkit-center;
+  }
+  .fun__facts__element {
+    display: flex;
+    flex-direction: row;
+    max-width: 68rem;
+  }
+  .fun__facts__tittle {
+    font-family: "Old Standard TT";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 98.88px;
+    letter-spacing: -2.4000000954px;
+    width: 69rem;
+  }
+  .fun__facts__subtittle {
+    font-family: Archivo;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15.23px;
+    letter-spacing: 2.7999999523px;
+    width: 68rem;
+  }
+  .fun__facts__element {
+    width: 68rem;
+  }
+  .fun__facts__element__1 {
+    padding: 1rem;
+    width: 370px;
+  }
+  .fun__facts__element__2 {
+    padding: 1rem;
+    width: 370px;
+  }
+  .fun__facts__element__3 {
+    padding: 1rem;
+    width: 370px;
   }
 }/*# sourceMappingURL=about-us.css.map */

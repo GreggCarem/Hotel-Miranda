@@ -65,3 +65,34 @@
   color: #777777;
   width: 15.625rem;
 }
+@media only screen and (min-width: 1000px) {
+  .Swiper2 .swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 54rem;
+    margin: auto;
+  }
+
+  .Swiper2 .swiper-slide {
+    width: 320px;
+    margin: 10px;
+
+    padding: 20px;
+
+    height: 320px;
+  }
+
+  .Swiper2 {
+    width: 100%;
+    height: 49.125rem;
+    background-color: transparent;
+    position: relative;
+    padding-bottom: 2rem;
+  }
+
+  .Swiper2 .swiper-pagination {
+    display: none;
+  }
+}

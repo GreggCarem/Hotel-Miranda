@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -124,92 +124,101 @@
     <!-- Calendar  -->
     <div class="calendar">
       <div class="calendar__inner">
-        <h3 class="calendar__arrival__txt">Arrival Date</h3>
-        <input
-          class="calendar__input"
-          type="date"
-          name="arrival"
-          id="arrival"
-        />
-        <div class="calendar__line"></div>
-        <h3 class="calendar__departure__txt">Departure Date</h3>
-        <input
-          class="calendar__input"
-          type="date"
-          name="departure"
-          id="departure"
-        />
-        <div class="calendar__line"></div>
+        <div class="calendar__inner__arrival">
+          <h3 class="calendar__arrival__txt">Arrival Date</h3>
+          <input
+            class="calendar__input"
+            type="date"
+            name="arrival"
+            id="arrival"
+          />
+          <div class="calendar__line"></div>
+        </div>
+        <div class="calendar__inner__departure">
+          <div class="calendar__inner__input"></div>
+          <h3 class="calendar__departure__txt">Departure Date</h3>
+          <input
+            class="calendar__input"
+            type="date"
+            name="departure"
+            id="departure"
+          />
+          <div class="calendar__line"></div>
+        </div>
         <a href="" class="calendar__btn">CHECK AVAILABILITY</a>
       </div>
     </div>
 
     <!-- About US -->
-
-    <div class="about__us">
-      <h1 class="about__us__subtitle">ABOUT US</h1>
-      <h2 class="about__us__title">Discover Our Underground.</h2>
-      <h3 class="about__us__text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-      </h3>
-      <a class="book__now" href="">BOOK NOW</a>
-    </div>
-
-    <!-- Strong Team  -->
-
-    <div class="strong__team">
-      <img
-        class="strong__team__room__img"
-        src="./Resources/Images/Room-1.png.webp"
-        alt="Amazing Room"
-      />
-      <div class="strong__team__box">
-        <img
-          class="strong__team__frontimg"
-          src="./Resources/Heads-Foward.png"
-          alt="Heads "
-        />
-        <img
-          class="strong__team__backimg"
-          src="./Resources/Heads-Back.png"
-          alt="Heads"
-        />
-        <div class="strong__team__box__text">
-          <h1 class="strong__team__box__text__title">Strong Team</h1>
-          <h2 class="strong__team__box__text__body">
+    <div class="Discover">
+      <div class="about__us">
+        <h1 class="about__us__subtitle">ABOUT US</h1>
+        <div class="about__us__body">
+          <h2 class="about__us__title">Discover Our Underground.</h2>
+          <h3 class="about__us__text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor.
-          </h2>
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </h3>
+          <a class="book__now" href="">BOOK NOW</a>
+        </div>
+      </div>
+
+      <!-- Strong Team  -->
+      <div class="Discover__inner">
+        <div class="strong__team">
+          <img
+            class="strong__team__room__img"
+            src="./Resources/Images/Room-1.png.webp"
+            alt="Amazing Room"
+          />
+          <div class="strong__team__box">
+            <img
+              class="strong__team__frontimg"
+              src="./Resources/Heads-Foward.png"
+              alt="Heads "
+            />
+            <img
+              class="strong__team__backimg"
+              src="./Resources/Heads-Back.png"
+              alt="Heads"
+            />
+            <div class="strong__team__box__text">
+              <h1 class="strong__team__box__text__title">Strong Team</h1>
+              <h2 class="strong__team__box__text__body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor.
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <!-- Luxury Rooms -->
+
+        <div class="luxury__rooms">
+          <img
+            class="luxury__rooms__img"
+            src="./Resources/Images/Luxury-room.jpg"
+            alt="Luxury Rooms"
+          />
+          <div class="luxury__rooms__box">
+            <img
+              class="luxury__rooms__calendar__img"
+              src="./Resources/Calendar-arrow.png"
+              alt="Calendar Arrow"
+            />
+            <div class="luxury__rooms__box__text">
+              <h1 class="luxury__rooms__box__text__title">Luxury Room</h1>
+              <h2 class="luxury__rooms__box__text__body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor.
+              </h2>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
-    <!-- Luxury Rooms -->
-    <div class="luxury__rooms">
-      <img
-        class="luxury__rooms__img"
-        src="./Resources/Images/Luxury-room.jpg"
-        alt="Luxury Rooms"
-      />
-      <div class="luxury__rooms__box">
-        <img
-          class="luxury__rooms__calendar__img"
-          src="./Resources/Calendar-arrow.png"
-          alt="Calendar Arrow"
-        />
-        <div class="luxury__rooms__box__text">
-          <h1 class="luxury__rooms__box__text__title">Strong Team</h1>
-          <h2 class="luxury__rooms__box__text__body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor.
-          </h2>
-        </div>
-      </div>
-    </div>
-
     <!-- Hand Picked Rooms  -->
     <div class="hand__picked__rooms">
       <h1 class="hand__picked__rooms__subtittle">Rooms</h1>
@@ -361,15 +370,17 @@
 
     <!-- Intro Video  -->
     <div class="intro__video">
-      <h1 class="intro__video__subtitle">Intro video</h1>
-      <h2 class="intro__video__tittle">Meet With Our Luxury Place.</h2>
-      <h3 class="intro__video__body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat you have to understand this.
-      </h3>
-      <div>
+      <div class="intro__video__1">
+        <h1 class="intro__video__subtitle">Intro video</h1>
+        <h2 class="intro__video__tittle">Meet With Our Luxury Place.</h2>
+        <h3 class="intro__video__body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat you have to understand this.
+        </h3>
+      </div>
+      <div class="intro__video__2">
         <iframe
           class="intro__video__video"
           src="https://www.youtube.com/embed/Bu3Doe45lcU?start=25&end=75&autoplay=1&mute=1"
@@ -377,6 +388,7 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
+        <div class="square__brown"></div>
         <a class="intro__video__btn" href="">Book Now</a>
       </div>
     </div>
@@ -500,6 +512,11 @@
 
     <!-- Our Food Menu -->
     <div class="food__menu">
+      <img
+        class="food__menu__img__full"
+        src="./Resources/Cockie_full.png"
+        alt="Coockie"
+      />
       <img class="food__menu__img" src="./Resources/cookie.png" alt="Cookie" />
       <h1 class="food__menu__subtittle">MENU</h1>
       <h2 class="food__menu__tittle">Our Foods Menu</h2>
@@ -507,6 +524,96 @@
         <div class="slider">
           <div class="swiper Swiper3">
             <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper-slide-food">
+                  <img
+                    class="swiper-slide-food-img"
+                    src="./Resources/Food/1.jpeg"
+                    alt="Eggs and Bacon "
+                  />
+                  <div class="swiper-slide-food-text-container">
+                    <h3 class="swiper-slide-food-tittle">Eggs & Bacon</h3>
+                    <h4 class="swiper-slide-food-text">
+                      Lorem ipsum dolor sit amet, consectetur adip isicing elit,
+                      sed do eiusmod tempor.
+                    </h4>
+                  </div>
+                </div>
+                <div class="swiper-slide-food">
+                  <img
+                    class="swiper-slide-food-img"
+                    src="./Resources/Food/2.jpeg"
+                    alt="Eggs and Bacon "
+                  />
+                  <div class="swiper-slide-food-text-container">
+                    <h3 class="swiper-slide-food-tittle">Tea or Coffee</h3>
+                    <h4 class="swiper-slide-food-text">
+                      Lorem ipsum dolor sit amet, consectetur adip isicing elit,
+                      sed do eiusmod tempor.
+                    </h4>
+                  </div>
+                </div>
+                <div class="swiper-slide-food">
+                  <img
+                    class="swiper-slide-food-img"
+                    src="./Resources/Food/3.jpeg"
+                    alt="Eggs and Bacon "
+                  />
+                  <div class="swiper-slide-food-text-container">
+                    <h3 class="swiper-slide-food-tittle">Chia Oatmeal</h3>
+                    <h4 class="swiper-slide-food-text">
+                      Lorem ipsum dolor sit amet, consectetur adip isicing elit,
+                      sed do eiusmod tempor.
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide-food">
+                  <img
+                    class="swiper-slide-food-img"
+                    src="./Resources/Food/4.jpeg"
+                    alt="Eggs and Bacon "
+                  />
+                  <div class="swiper-slide-food-text-container">
+                    <h3 class="swiper-slide-food-tittle">Fruit Parfait</h3>
+                    <h4 class="swiper-slide-food-text">
+                      Lorem ipsum dolor sit amet, consectetur adip isicing elit,
+                      sed do eiusmod tempor.
+                    </h4>
+                  </div>
+                </div>
+                <div class="swiper-slide-food">
+                  <img
+                    class="swiper-slide-food-img"
+                    src="./Resources/Food/5.jpeg"
+                    alt="Eggs and Bacon "
+                  />
+                  <div class="swiper-slide-food-text-container">
+                    <h3 class="swiper-slide-food-tittle">
+                      Marmalade Selection
+                    </h3>
+                    <h4 class="swiper-slide-food-text">
+                      Lorem ipsum dolor sit amet, consectetur adip isicing elit,
+                      sed do eiusmod tempor.
+                    </h4>
+                  </div>
+                </div>
+                <div class="swiper-slide-food">
+                  <img
+                    class="swiper-slide-food-img"
+                    src="./Resources/Food/6.jpeg"
+                    alt="Eggs and Bacon "
+                  />
+                  <div class="swiper-slide-food-text-container">
+                    <h3 class="swiper-slide-food-tittle">Cheese Plate</h3>
+                    <h4 class="swiper-slide-food-text">
+                      Lorem ipsum dolor sit amet, consectetur adip isicing elit,
+                      sed do eiusmod tempor.
+                    </h4>
+                  </div>
+                </div>
+              </div>
               <div class="swiper-slide">
                 <div class="swiper-slide-food">
                   <img

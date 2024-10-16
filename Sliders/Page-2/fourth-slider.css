@@ -27,3 +27,10 @@
   width: 90%;
   height: 335px;
 }
+
+@media only screen and (min-width: 1000px) {
+  .slider4 {
+    height: 23.125rem;
+    margin-left: 18rem;
+  }
+}

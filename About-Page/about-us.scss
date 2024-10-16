@@ -46,6 +46,7 @@
 }
 
 //Boxes
+
 .box {
   display: flex;
   flex-direction: column;
@@ -56,7 +57,9 @@
   .box__second__row {
     display: flex;
     gap: 1rem;
-
+    .box__5 {
+      display: none;
+    }
     .box__1,
     .box__2,
     .box__3,
@@ -98,7 +101,7 @@
       h1 {
         margin-top: 0.5rem;
         @include subtitle-txt;
-        width: 5rem;
+        font-size: 12px;
       }
     }
   }
@@ -145,7 +148,7 @@
 
   &__btn {
     @include book-now;
-    margin-left: -4.8rem;
+    margin-left: 2.3rem;
     margin-top: -1rem;
   }
 }
@@ -335,6 +338,185 @@
       right: 9.5rem;
       top: 24.2rem;
       width: 12.5rem;
+    }
+  }
+
+  .video {
+    margin-top: 5rem;
+    &__intro {
+      width: 80%;
+      height: 40.625rem;
+      margin: auto;
+    }
+
+    &__text {
+      line-height: 88.99px;
+      letter-spacing: -2.1600000858306885px;
+      text-align: center;
+      font-size: 4.5rem;
+      max-width: 68rem;
+      margin: auto;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+    }
+  }
+
+  .box {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+
+    .box__first__row,
+    .box__second__row {
+      display: flex;
+      gap: 5rem;
+    }
+  }
+
+  .restaurant {
+    display: flex;
+
+    margin: auto;
+    width: 90%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+    box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1019607843);
+
+    &__body {
+      width: 35rem;
+    }
+    &__img {
+      width: 33.125rem;
+      height: 26.25rem;
+    }
+
+    &__subtitte {
+      margin-left: 2.3rem;
+    }
+
+    &__tittle {
+      font-size: 48px;
+
+      width: 31rem;
+    }
+
+    &__btn {
+      margin-left: 2.2rem;
+    }
+  }
+
+  .box {
+    flex-direction: row;
+    gap: 0.5rem;
+
+    .box__first__row,
+    .box__second__row {
+      display: flex;
+      gap: 0.5rem;
+
+      .box__5 {
+        display: block;
+      }
+      .box__1,
+      .box__2,
+      .box__3,
+      .box__5,
+      .box__4 {
+        width: 12.5rem;
+        height: 12.5rem;
+        display: grid;
+        place-items: center;
+        text-align: center;
+      }
+
+      .box__1,
+      .box__3,
+      .box__5,
+      .box__4 {
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+
+        h1 {
+          margin-top: -4.5rem;
+          @include subtitle-txt;
+        }
+      }
+
+      .box__2 {
+        width: 9.813rem;
+        height: 9.813rem;
+
+        h1 {
+          margin-top: 0.5rem;
+          @include subtitle-txt;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .restaurant {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1019607843);
+
+    &__tittle {
+      width: auto;
+      max-width: 31rem;
+    }
+    &__body {
+      width: auto;
+      max-width: 35rem;
+    }
+  }
+  .fun__facts {
+    text-align: -webkit-center;
+  }
+  .fun__facts__element {
+    display: flex;
+    flex-direction: row;
+    max-width: 68rem;
+  }
+  .fun__facts__tittle {
+    font-family: "Old Standard TT";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 98.88px;
+    letter-spacing: -2.4000000953674316px;
+
+    width: 69rem;
+  }
+  .fun__facts__subtittle {
+    font-family: Archivo;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15.23px;
+    letter-spacing: 2.799999952316284px;
+    width: 68rem;
+  }
+  .fun__facts__element {
+    width: 68rem;
+
+    &__1 {
+      padding: 1rem;
+      width: 370px;
+    }
+    &__2 {
+      padding: 1rem;
+      width: 370px;
+    }
+    &__3 {
+      padding: 1rem;
+      width: 370px;
     }
   }
 }
