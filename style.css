@@ -1358,4 +1358,8 @@ body {
     position: absolute;
     display: none;
   }
+  .calendar__btn {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
 }/*# sourceMappingURL=style.css.map */
